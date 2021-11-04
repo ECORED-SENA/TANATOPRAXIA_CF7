@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="389" height="268" viewBox="0 0 389 268">
+  <g id="Grupo_134300" data-name="Grupo 134300" transform="translate(-978 -8336)">
+    <rect id="Rectángulo_36395" data-name="Rectángulo 36395" width="389" height="45" rx="10" transform="translate(978 8336)" fill="#1d272b"/>
+    <g id="Rectángulo_36396" data-name="Rectángulo 36396" transform="translate(978 8366)" fill="none" stroke="#1d272b" stroke-width="1">
+      <rect width="389" height="238" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="388" height="237" rx="9.5" fill="none"/>
+    </g>
+    <text id="Fórmula:_C_V_C_V_" data-name="Fórmula: C*V=C´*V´" transform="translate(1073 8347)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="21">Fórmula: C*V=C´*V´</tspan></text>
+    <text id="Donde:" transform="translate(999 8405)" fill="#1d272b" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="21">Donde:</tspan></text>
+    <g id="Grupo_133141" data-name="Grupo 133141" transform="translate(-13)">
+      <text id="C_es_el_índice_V_volumen_de_químico_puro_C_es_el_de_la_concentración_V_es_el_volumen_total_de_la_solución_" data-name="C es el índice
+V volumen de químico puro
+C´ es el % de la concentración
+V´ es el volumen total de la solución
+" transform="translate(1037 8444)" fill="#12263f" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="21">C es el índice</tspan><tspan x="0" y="57">V volumen de químico puro</tspan><tspan x="0" y="93">C´ es el % de la concentración</tspan><tspan x="0" y="129">V´ es el volumen total de la solución</tspan></text>
+      <g id="Grupo_944" data-name="Grupo 944" transform="translate(1022.249 8448)">
+        <g id="Grupo_423" data-name="Grupo 423">
+          <path id="Trazado_635" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#b42218"/>
+        </g>
+      </g>
+      <g id="Grupo_944-2" data-name="Grupo 944" transform="translate(1022.249 8484.055)">
+        <g id="Grupo_423-2" data-name="Grupo 423">
+          <path id="Trazado_635-2" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#b42218"/>
+        </g>
+      </g>
+      <g id="Grupo_944-3" data-name="Grupo 944" transform="translate(1022.249 8520.109)">
+        <g id="Grupo_423-3" data-name="Grupo 423">
+          <path id="Trazado_635-3" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#b42218"/>
+        </g>
+      </g>
+      <g id="Grupo_944-4" data-name="Grupo 944" transform="translate(1022.249 8556.164)">
+        <g id="Grupo_423-4" data-name="Grupo 423">
+          <path id="Trazado_635-4" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#b42218"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
