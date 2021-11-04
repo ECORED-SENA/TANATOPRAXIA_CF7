@@ -40,36 +40,37 @@
     p.mb-5 En la vida práctica de un tanatopractor se puede encontrar con dos tipos generales de la muerte vista externamente. Cuerpos con necropsia y sin ella. Cabe anotar que para cada cuerpo fallecido se debe hacer un análisis del caso, teniendo en cuenta patologías, signos de la muerte, entre otras que se han mencionado a lo largo de su experiencia de aprendizaje. Con la intención de que valore cada caso explore los cuerpos humanos. 
 
     .hScroll
-      .row.border.p-5
-        .col-lg-4
-          p.cn.mb-1 CUERPO DE MUERTE
-          h1.cac.bordeBnegro SIN NECROPSIA
-          p Se puede escoger un solo punto de inyección y drenaje, si presenta complicaciones buscar otro punto de inyección.
-        .col-lg-8
-          figure(data-aos="fade-left")
-            img(src='@/assets/curso/t5/f3.svg' alt='imagen relacionada')
-
-      .row.border.p-5
-        .col-lg-4
-          p.cn.mb-1 CUERPO DE MUERTE
-          h1.cac.bordeBnegro CON NECROPSIA
-          p el sistema circulatorio está interrumpido, se requiere inyectar por 6 puntos: 
-          ol.lista-ol--cuadro.lista-ol--separador
-            li 
-              .lista-ol--cuadro__vineta.fcp
-                span 2
-              | carótidas
-            li 
-              .lista-ol--cuadro__vineta.fcp
-                span 2
-              | axilares o subclavias
-            li 
-              .lista-ol--cuadro__vineta.fcp
-                span 2
-              | femorales
-        .col-lg-8
-          figure(data-aos="fade-left")
-            img(src='@/assets/curso/t5/f4.svg' alt='imagen relacionada')
+      .col-12.primer
+        .row.border.p-5
+          .col-lg-4
+            p.cn.mb-1 CUERPO DE MUERTE
+            h1.cac.bordeBnegro SIN NECROPSIA
+            p Se puede escoger un solo punto de inyección y drenaje, si presenta complicaciones buscar otro punto de inyección.
+          .col-lg-8
+            figure(data-aos="fade-left")
+              img(src='@/assets/curso/t5/f3.svg' alt='imagen relacionada')
+      .col-12.ultimo
+        .row.border.p-5
+          .col-lg-4
+            p.cn.mb-1 CUERPO DE MUERTE
+            h1.cac.bordeBnegro CON NECROPSIA
+            p el sistema circulatorio está interrumpido, se requiere inyectar por 6 puntos: 
+            ol.lista-ol--cuadro.lista-ol--separador
+              li 
+                .lista-ol--cuadro__vineta.fcp
+                  span 2
+                | carótidas
+              li 
+                .lista-ol--cuadro__vineta.fcp
+                  span 2
+                | axilares o subclavias
+              li 
+                .lista-ol--cuadro__vineta.fcp
+                  span 2
+                | femorales
+          .col-lg-8
+            figure(data-aos="fade-left")
+              img(src='@/assets/curso/t5/f4.svg' alt='imagen relacionada')
 
     .contenedor.fnegro.mb-5
       h2.texto-blanco.text-center.mb-0 Explorado las guías vasculares del cuerpo, tenga presente esta información sobre algunos vasos sanguíneos.
@@ -132,16 +133,17 @@
 
     p.mb-5 El centro de la circulación en una persona viva es el corazón, este es el órgano encargado de bombear la sangre a todo el cuerpo. Cuando una persona fallece el corazón deja de latir cuando cierra las válvulas, esto hace que la distribución artificial se centre en otra zona. El corazón en la parte superior tiene una ramificación llamada cayado aórtico, que es donde se bifurcan la aorta ascendente y el cayado o arco de la aorta.
 
-    .contenedor
-      .row.mb-5
-        .col-md-5.m-0.fnegro
+    .contenedor.mb-5
+      .row
+        .col.m-0.fnegro.order-lg-first.order-md-last
           figure
             img(src='@/assets/curso/t5/f9.svg', alt='imagen relacionada').mb-4
           p.texto-blanco <em>El cayado aórtico contiene arterias. La arteria braquiocefálica se encarga de irrigar la zona derecha de la cabeza y el brazo derecho. La arteria carótida común izquierda irriga la zona izquierda de la cabeza.  La arteria subclavia izquierda que irriga el brazo izquierdo y un arco llamado la aorta torácica descendente que irriga las demás zonas del cuerpo.</em>
-        .col-lg-7.m-0
+        .col-lg-7.m-0.order-md-first.order-lg-last
           figure
             img(src='@/assets/curso/t5/f10.svg', alt='imagen relacionada').mb-4
-        .col-md-5.m-0
+      .row
+        .col.m-0
           figure
             img(src='@/assets/curso/t5/f11.png', alt='imagen relacionada').mb-4
         .col-lg-7.m-0.fnegro
@@ -153,14 +155,14 @@
         p Comprendida la información anterior, es importante identificar la información relacionada con las arterias y venas principales. Es de vital importancia escoger el punto de inyección y drenaje para obtener óptimos resultados. En teoría, cualquier punto de inyección y drenaje sirve para la preservación vascular, pero se recomienda básicamente dos factores a tener en cuenta:
         .col-lg-9.mx-auto
           ol.lista-ol--cuadro.lista-ol--separador
-          li 
-            .lista-ol--cuadro__vineta.fcp
-              span 1
-            | Ubicación de una arteria que sea de fácil acceso.
-          li 
-            .lista-ol--cuadro__vineta.fcp
-              span 2
-            | Diámetro de la arteria para ingresar la cánula con la que inyectará y drenará. Realice una incisión, ni muy grande, ni muy pequeña; se recomienda unos 2 o 3 cm y recuerde que la cánula dentro de la arteria va en dirección al corazón. Inserte la pinza para drenaje también en dirección al corazón e inyecte hacia al lado contrario (sobre todo en extremidades de los miembros superior e inferior).
+            li 
+              .lista-ol--cuadro__vineta.fcp
+                span 1
+              | Ubicación de una arteria que sea de fácil acceso.
+            li 
+              .lista-ol--cuadro__vineta.fcp
+                span 2
+              | Diámetro de la arteria para ingresar la cánula con la que inyectará y drenará. Realice una incisión, ni muy grande, ni muy pequeña; se recomienda unos 2 o 3 cm y recuerde que la cánula dentro de la arteria va en dirección al corazón. Inserte la pinza para drenaje también en dirección al corazón e inyecte hacia al lado contrario (sobre todo en extremidades de los miembros superior e inferior).
       .col-lg-4
         figure
           img(src='@/assets/curso/t5/f12.png', alt='Punto de inyección y drenaje')
@@ -399,22 +401,22 @@
       .col-lg-3.p-4.text-center
         figure
           img(src='@/assets/curso/t5/f33.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 ●	Cohesión es la resistencia que hace un líquido en un medio que lo contenga. 
+        h4 Cohesión es la resistencia que hace un líquido en un medio que lo contenga. 
         p 
       .col-lg-3.p-4.text-center
         figure
           img(src='@/assets/curso/t5/f34.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 ●	Arrastre es la fuerza ejercida por el fluido contra la superficie donde se mueve.
+        h4 Arrastre es la fuerza ejercida por el fluido contra la superficie donde se mueve.
         p 
       .col-lg-3.p-4.text-center
         figure
           img(src='@/assets/curso/t5/f35.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 ●	Presión es la medida volumétrica respecto a la intensidad que se ejerce contra una masa.
+        h4 Presión es la medida volumétrica respecto a la intensidad que se ejerce contra una masa.
         p 
       .col-lg-3.p-4.text-center
         figure
           img(src='@/assets/curso/t5/f36.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 ●	Rango de flujo (caudal) es el volumen o cantidad total de un fluido en un lapso determinado.
+        h4 Rango de flujo (caudal) es el volumen o cantidad total de un fluido en un lapso determinado.
         p 
 
     p.mb-4 Al conocer el movimiento de los fluidos por los canales vasculares se debe hablar de la difusión de la solución arterial de preservación, para comprender mejor cómo llega a cumplir su propósito de preservación. Esta se define como “el paso de algunos elementos de las soluciones de embalsamamiento inyectadas desde dentro del capilar (intravascular) hacia los espacios tisulares (extravasculares)” (Mayer, 2006, p. 281). 

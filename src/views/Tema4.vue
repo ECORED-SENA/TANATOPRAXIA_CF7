@@ -320,47 +320,52 @@
         .p-4.ps-0.py-5
           p.mb-0 Es importante mencionar que los químicos también se pueden clasificar por su utilización.  Estos químicos o fluidos arteriales preservantes son ligeramente alcalinos con pH entre 7,2 y 7,4, que se utilizan única y exclusivamente para ser inyectados arterialmente y siempre se deben inyectar mezclados con agua.
 
-    .row.mb-5
-      .col.mmw
+    .row.justify-content-center.mb-5
+      .col.mmw.fcb.h500px.p-0.mx-2
         figure
           img(src='@/assets/curso/t4/f27.png', alt='imagen relacionada')
-        .fcb.p-4
+        .p-4
           h3 Mortuary Labs
           p Es una empresa con actividad comercial desde el año 2017, ubicada en la ciudad de Popayán, Cauca. Cuenta con las líneas de manufactura, servicios y escuela de tanatopraxia.
-        a.boton.fcab.mx-auto(:href="obtenerLink('/downloads/Anexo_2.pdf')" target='_blank')
-          h6.mb-0.text-center Ver más
-      .col.mmw
+          .mx-auto
+            a.boton.fcab(:href="obtenerLink('/downloads/Anexo_2.pdf')" target='_blank')
+              h6.mb-0.text-center Ver más
+      .col.mmw.fcp20.h500px.p-0.mx-2
         figure
           img(src='@/assets/curso/t4/f28.png', alt='imagen relacionada')
-        .fcp20.p-4
+        .p-4
           h3 Skudmart
           p Es una empresa encargada de desarrollar y fabricar novedosas aplicaciones químicas y biotecnológicas para el arte de la tanatopraxia.
-        a.boton.fcab.mx-auto(href='http://skudmart.com/wp-content/uploads/2021/catalogo/Tanatopraxia.pdf' target='_blank')
-          h6.mb-0.text-center Ver más
-      .col.mmw
+          .mx-auto
+            a.boton.fcab(href='http://skudmart.com/wp-content/uploads/2021/catalogo/Tanatopraxia.pdf' target='_blank')
+              h6.mb-0.text-center Ver más
+      .col.mmw.fcb.h500px.p-0.mx-2
         figure
           img(src='@/assets/curso/t4/f29.png', alt='imagen relacionada')
-        .fcb.p-4
+        .p-4
           h3 Tanatil
           p Es una empresa radicada en la ciudad de Medellín, fundada por la empresa funeraria San Vicente. Cuenta con las líneas de desinfectantes, estética, instrumental y preservantes.
-        a.boton.fcab.mx-auto(href='https://www.funerariasanvicente.com/portal/productos/?q=918' target='_blank')
-          h6.mb-0.text-center Ver más
-      .col.mmw
+          .mx-auto
+            a.boton.fcab(href='https://www.funerariasanvicente.com/portal/productos/?q=918' target='_blank')
+              h6.mb-0.text-center Ver más
+      .col.mmw.fcp20.h500px.p-0.mx-2
         figure
           img(src='@/assets/curso/t4/f30.png', alt='imagen relacionada')
-        .fcp20.p-4
+        .p-4
           h3 The Dodge Company
           p Es una empresa familiar constituida en el año 1893 en Estados Unidos. Son los mayores proveedores y fabricantes de productos químicos y cosméticos para embalsamamiento.
-        a.boton.fcab.mx-auto(href='www.dodgeco.com' target='_blank')
-          h6.mb-0.text-center Ver más
-      .col.mmw
+          .mx-auto
+            a.boton.fcab(href='www.dodgeco.com' target='_blank')
+              h6.mb-0.text-center Ver más
+      .col.mmw.fcb.h500px.p-0.mx-2
         figure
           img(src='@/assets/curso/t4/f31.png', alt='imagen relacionada')
-        .fcb.p-4
+        .p-4
           h3 U.S. Chemical
           p Son una compañía de suplementos para casas funerarias, cementerios y crematorios.
-        a.boton.fcab.mx-auto(href='www.hepburnsuperior.com' target='_blank')
-          h6.mb-0.text-center Ver más
+          .mx-auto
+            a.boton.fcab(href='www.hepburnsuperior.com' target='_blank')
+              h6.mb-0.text-center Ver más
 
     p.mb-5 Los químicos para el embalsamamiento se pueden clasificar en cavitales (cavidad), especiales y blanqueadores. Los primeros son diseñados exclusivamente con conservantes astringentes de acción rápida y normalmente con una alta concentración de formaldehído; estos se complementan con agentes germicidas y coagulantes porque su propósito es el tratamiento de las vísceras corporales. Los segundos son especialmente diseñados para complementar, equilibrar y controlar la acción de los químicos arteriales; estos pueden ser usados antes o durante la inyección de la solución arterial y, los terceros ayudan a remover coloraciones y manchas temporales, para mayor información observe el siguiente recurso educativo.
 
