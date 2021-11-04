@@ -47,7 +47,7 @@
         figure
           img(src='@/assets/curso/t3/f4.png', alt='Proceso natural de la muerte, cuerpo humano')
       .col-lg-8
-        p El proceso natural de la muerte del cuerpo humano conduce a una descomposición de los tejidos, entonces, con la preservación química se pretende retardar por un tiempo específico todos los cambios tanto físicos como químicos de la muerte. 
+        p El proceso natural de la muerte del cuerpo humano conduce a una <b>descomposición de los tejidos</b>, entonces, con la <b><span class="cp">preservación química se pretende retardar por un tiempo específico</span></b> todos los cambios tanto físicos como químicos de la muerte. 
         p Este proceso se define como el intercambio de fluidos a nivel intravascular, usando dos guías vasculares a través de una máquina inyectora de solución química por las arterias principales (guía vascular) y luego se drena el exceso de sangre y líquidos por las venas (guía vascular). 
 
     .row.align-items-center.mb-4

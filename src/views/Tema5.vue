@@ -39,7 +39,7 @@
 
     p.mb-5 En la vida práctica de un tanatopractor se puede encontrar con dos tipos generales de la muerte vista externamente. Cuerpos con necropsia y sin ella. Cabe anotar que para cada cuerpo fallecido se debe hacer un análisis del caso, teniendo en cuenta patologías, signos de la muerte, entre otras que se han mencionado a lo largo de su experiencia de aprendizaje. Con la intención de que valore cada caso explore los cuerpos humanos. 
 
-    .hScroll
+    .hScroll(style='cursor:e-resize;border: solid 1px black;')
       .col-12.primer
         .row.border.p-5
           .col-lg-4
@@ -69,10 +69,10 @@
                   span 2
                 | femorales
           .col-lg-8
-            figure(data-aos="fade-left")
+            figure
               img(src='@/assets/curso/t5/f4.svg' alt='imagen relacionada')
 
-    .contenedor.fnegro.mb-5
+    .contenedor.fnegro.mb-5.p-5
       h2.texto-blanco.text-center.mb-0 Explorado las guías vasculares del cuerpo, tenga presente esta información sobre algunos vasos sanguíneos.
 
     .col-lg-11.mx-auto.mb-5
@@ -135,19 +135,20 @@
 
     .contenedor.mb-5
       .row
-        .col.m-0.fnegro.order-lg-first.order-md-last
+        .col.m-0.fnegro.order-lg-first.order-last
           figure
             img(src='@/assets/curso/t5/f9.svg', alt='imagen relacionada').mb-4
           p.texto-blanco <em>El cayado aórtico contiene arterias. La arteria braquiocefálica se encarga de irrigar la zona derecha de la cabeza y el brazo derecho. La arteria carótida común izquierda irriga la zona izquierda de la cabeza.  La arteria subclavia izquierda que irriga el brazo izquierdo y un arco llamado la aorta torácica descendente que irriga las demás zonas del cuerpo.</em>
-        .col-lg-7.m-0.order-md-first.order-lg-last
+        .col-lg-7.m-0.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t5/f10.svg', alt='imagen relacionada').mb-4
       .row
         .col.m-0
           figure
             img(src='@/assets/curso/t5/f11.png', alt='imagen relacionada').mb-4
-        .col-lg-7.m-0.fnegro
-          p.texto-blanco <em>Con base al cayado aórtico es que se debe pensar inicialmente para realizar la preservación química arterial, por ejemplo, la arteria carótida que se ubica en el cuello y que es una arteria principal, de muy buen diámetro y cerca al corazón, se debe tener siempre como punto de partida para la inyección, la cual se hace en dirección al corazón para dirigir el fluido preservante en relación al resto del cuerpo. Dependiendo de la extremidad que se inyecte como, por ejemplo, la arteria femoral o la arteria humeral será necesario inyectar en dirección contraria para que las zonas distantes al punto de inyección sean preservadas.</em>
+        .col-lg-7.m-0.fnegro.contenedorNegro
+          .p-5
+            p.texto-blanco <em>Con base al cayado aórtico es que se debe pensar inicialmente para realizar la preservación química arterial, por ejemplo, la arteria carótida que se ubica en el cuello y que es una arteria principal, de muy buen diámetro y cerca al corazón, se debe tener siempre como punto de partida para la inyección, la cual se hace en dirección al corazón para dirigir el fluido preservante en relación al resto del cuerpo. Dependiendo de la extremidad que se inyecte como, por ejemplo, la arteria femoral o la arteria humeral será necesario inyectar en dirección contraria para que las zonas distantes al punto de inyección sean preservadas.</em>
 
     .row.align-items-center.mb-5
       .col-lg-8
@@ -473,20 +474,20 @@
 
     p.mb-5 La preservación química cuenta con una parte mecánica que está directamente relacionada con la inyección de fluidos en el sistema vascular; esto consiste en aplicar un fluido preservante por las arterias y que haya algo que pueda hacerlo circular dentro del sistema vascular, en vida el centro de la circulación es el corazón, que es el encargado de bombear la sangre por todo el cuerpo; pero en muerte se necesita una máquina inyectora para que pueda  “empujar” el líquido preservante por todo el cuerpo.
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-secundario.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t5/f39.svg', alt='imagen relacionada')
-        h2.text-center Preservación arterial
-        p Es el ingreso de químicos preservantes, con esta inyección vascular no solo se logra la preservación temporal del cadáver sino también la sanitización y restauración de los tejidos del cuerpo. Es allí donde se realiza el intercambio de fluidos a nivel vascular, pues a medida que el líquido ingresa por las arterias la sangre se drena por las venas hacia el exterior.
-      .col-md.tarjeta.color-primario.p-5
+        h2.cst Preservación arterial
+        p.cst Es el ingreso de químicos preservantes, con esta inyección vascular no solo se logra la preservación temporal del cadáver sino también la sanitización y restauración de los tejidos del cuerpo. Es allí donde se realiza el intercambio de fluidos a nivel vascular, pues a medida que el líquido ingresa por las arterias la sangre se drena por las venas hacia el exterior.
+      .col-md.tarjeta.color-primario.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t5/f40.svg', alt='imagen relacionada')
-        h2.text-center Drenaje vascular
-        p Es la evacuación de la sangre y de los fluidos del sistema vascular. Este proceso se hace exclusivamente por las venas porque son el canal, opuesto al sistema arterial, con la mayor cantidad de sangre. El drenaje se usa como referencia al paralelo de las guías arteriales.
+        h2.cst Drenaje vascular
+        p.cst Es la evacuación de la sangre y de los fluidos del sistema vascular. Este proceso se hace exclusivamente por las venas porque son el canal, opuesto al sistema arterial, con la mayor cantidad de sangre. El drenaje se usa como referencia al paralelo de las guías arteriales.
 
     p.mb-5 La inyección y el drenaje son procesos que ocurren en simultáneo. Cuando el líquido preservante ingresa al sistema vascular por las arterias, el líquido que se drena sale como una mezcla entre sangre y coágulos con líquido preservante y líquido intersticial. Para entender esta mecánica de inyección y drenaje vascular es importante dejar claros algunos conceptos que son fundamentales al momento de la preservación química arterial. Le sugiero leerlos a continuación.
 

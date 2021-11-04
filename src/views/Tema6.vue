@@ -50,15 +50,16 @@
       p.mb-0 Durante este proceso se recomienda extraer el trocar para permitir el paso de aire y limpiar los contenidos que se encuentren alojados en el instrumento y la tubería, a la cual se encuentra conectado.
 
     .contenedor
-      .row.mb-5
-        .col-lg-7.m-0.fnegro
+      .row
+        .col-lg-7.m-0.fnegro.fnegro.order-lg-first.order-md-last
           figure
             img(src='@/assets/curso/t6/f7.svg', alt='imagen relacionada').mb-4
           p.texto-blanco <em>El proceso de aspiración se debe realizar en orden para abarcar toda la cavidad toracoabdominal y pélvica, recuerde que los gases por lo general se encuentran en las partes anteriores de la cavidad toracoabdominal, y los líquidos en las partes posteriores de la cavidad, se sugiere realizar la aspiración en tres niveles: zona anterior de la cavidad, de derecha a izquierda dentro de la parte media de la cavidad y por último, de derecha a izquierda en las zonas más alejadas o profundas de la cavidad, todo esto con el fin de abarcar la mayor cantidad de material allí alojado.</em>
           p.texto-blanco <em>En la imagen que observa se señala el punto de entrada del trocar y las líneas puntiagudas direccionan el camino de este por los cuadrantes, para realizar la aspiración de los contenidos que allí se encuentren.</em>
-        .col-md-5.m-0
+        .col-md-5.m-0.fnegro.order-md-first.order-lg-last
           figure
             img(src='@/assets/curso/t6/f8.png', alt='imagen relacionada').mb-4
+      .row
         .col-md-5.m-0
           figure
             img(src='@/assets/curso/t6/f9.png', alt='imagen relacionada').mb-4
@@ -90,20 +91,20 @@
       .col-lg-4
       
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-secundario.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t6/f12.svg', alt='imagen relacionada')
-        h2.text-center Sutura en forma de N o invertida
-        p Con cuatro puntos de inserción esta sutura es una técnica para cerrar la incisión, se debe escoger un punto de inserción inicial (A), se lleva la aguja hasta el segundo punto por debajo de la piel (B), luego se lleva al punto (C) por encima del tejido y de allí se lleva al punto (D) por debajo de la piel, posteriormente de hala y se anuda.
-      .col-md.tarjeta.color-primario.p-5
+        h2.cst Sutura en forma de N o invertida
+        p.cst Con cuatro puntos de inserción esta sutura es una técnica para cerrar la incisión, se debe escoger un punto de inserción inicial (A), se lleva la aguja hasta el segundo punto por debajo de la piel (B), luego se lleva al punto (C) por encima del tejido y de allí se lleva al punto (D) por debajo de la piel, posteriormente de hala y se anuda.
+      .col-md.tarjeta.color-primario.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t6/f13.svg', alt='imagen relacionada')
-        h2.text-center Sutura en bolsa de tabaco
-        p Es una sutura continua en la que la línea de sutura tiene una forma circular, de modo que al estirarla y anudar los dos extremos del hilo, el tejido suturado tiende a aproximarse al punto central del círculo, de modo que se cierra como una talega (Clínica Universidad de Navarra).
+        h2.cst Sutura en bolsa de tabaco
+        p.cst Es una sutura continua en la que la línea de sutura tiene una forma circular, de modo que al estirarla y anudar los dos extremos del hilo, el tejido suturado tiende a aproximarse al punto central del círculo, de modo que se cierra como una talega (Clínica Universidad de Navarra).
 
     .tarjeta-avatar-b.mb-4
       .tarjeta-avatar-b__img(data-aos="fade-right")
