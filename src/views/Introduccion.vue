@@ -16,7 +16,7 @@
             img(src='@/assets/curso/if1.svg' alt='Morgue')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Apreciado aprendiz, bienvenido a esta experiencia de aprendizaje pensada en el segundo momento del proceso de embalsamamiento. Para iniciar se invita a que revise el siguiente recurso de aprendizaje.
+            p.mb-4 <b><span class="cp">Apreciado aprendiz</span></b>, bienvenido a esta <b>experiencia de aprendizaje pensada en el segundo momento del proceso de embalsamamiento.</b> Para iniciar se invita a que revise el siguiente recurso de aprendizaje.
             p.mb-0 <b>¡Bienvenido!</b>
 
 

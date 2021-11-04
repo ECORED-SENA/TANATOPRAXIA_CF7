@@ -11,22 +11,22 @@
     p.mb-5 Como se ha mencionado, la muerte es la ruptura del equilibrio biológico y fisicoquímico de un cuerpo. Cuando el cuerpo yace inerte llegan reacciones que poco a poco conducen a su descomposición, que en el contexto de la tanatopraxia, hace referencia a un cambio biológico y fisicoquímico de las estructuras corporales. Este fenómeno también se le conoce como post-mortem; cabe mencionar que un cuerpo presenta síntomas de descomposición, la muerte es innegable. La descomposición como desestructuración corporal tiene dos perspectivas, estas son:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-secundario.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t2/f1.svg', alt='imagen relacionada')
-        h2.text-center Descomposición intrínseca
+        h2 Descomposición intrínseca
         p Es la descomposición que ocurre de forma natural en los componentes del cuerpo humano, sin influencia externa del medio que lo rodea y estos factores están gobernados por la edad, el sexo, la corpulencia, la deshidratación, entre otros.
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-primario.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t2/f2.svg', alt='imagen relacionada')
-        h2.text-center Descomposición extrínseca
-        p Es la descomposición causada por factores fuera del cuerpo, como la temperatura del ambiente, la humedad, el acceso al aire, las bacterias, entre otros.
+        h2.cst Descomposición extrínseca
+        p.cst Es la descomposición causada por factores fuera del cuerpo, como la temperatura del ambiente, la humedad, el acceso al aire, las bacterias, entre otros.
 
-    p.mb-5 Estos dos procesos son irreversibles e inevitables para toda materia orgánica y solamente pueden ser ralentizados temporalmente por efectos de la preservación, por medios químicos o deshidratación de los tejidos. Se sabe que se puede estar preguntado ¿cómo sucede una descomposición química de un cuerpo?, para resolver esta curiosidad observe el siguiente recurso educativo.
+    p.mb-5 <b>Estos <span class="cp">dos procesos son irreversibles e inevitables para toda materia orgánica</span> y solamente pueden ser ralentizados temporalmente por efectos de la preservación, por medios químicos o deshidratación de los tejidos.</b> Se sabe que se puede estar preguntando <b><span class="cac">¿cómo sucede una descomposición química de un cuerpo?</span></b>, para resolver esta curiosidad observe el siguiente recurso educativo.
 
     PasosA.color-primario.mb-5(tipo="n")
       .row.align-items-center
@@ -78,7 +78,7 @@
         figure
           img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
       .col-lg-7
-        p.bordeLnegro.mb-0 El cuerpo humano está formado principalmente por cuatro compuestos: el oxígeno, el carbono, el hidrógeno y el nitrógeno. Cuando el cuerpo para su actividad vital genera los compuestos mencionados y crea elementos residuales que afectan la tanatopraxia, estos son: 
+        p.bordeLnegro.mb-0 <b>El cuerpo humano está formado principalmente por cuatro compuestos:</b> el oxígeno, el carbono, el hidrógeno y el nitrógeno. Cuando <b><span class="cp">el cuerpo para su actividad vital genera los compuestos mencionados y crea elementos residuales que</span> <span class="cac">afectan la tanatopraxia,</span></b> estos son: 
       .col
 
     .row.align-items-center.mb-5
@@ -116,7 +116,7 @@
     #t_2_1.titulo-segundo
       h2 2.1 Tipos de descomposición
 
-    p.mb-5 Entre el periodo del fallecimiento y el embalsamamiento la condición del cuerpo y la composición de este sigue cambiando y sí hay influencia interna, actividad química o externa, por la naturaleza se presentarán mayores cambios en la descomposición de los cuerpos. A continuación, se presentan los diferentes tipos de descomposición según las condiciones presentadas por el cadáver al momento del fallecimiento y según el medio que lo rodea.
+    p.mb-5 <b>Entre el periodo del fallecimiento y el embalsamamiento</b> la condición del cuerpo y la composición de este sigue cambiando y sí hay influencia interna, <b><span class="cp">actividad química o externa</span></b>, por la naturaleza se presentarán mayores cambios en la descomposición de los cuerpos. A continuación, se presentan los <b>diferentes tipos de descomposición según las condiciones presentadas por el cadáver al momento del fallecimiento y según el medio que lo rodea.</b>
 
     .row.mb-5
       .col-lg-7
@@ -214,7 +214,7 @@
     #t_2_2.titulo-segundo
       h2 2.2 Orden de descomposición del cuerpo humano
 
-    p.mb-5 Al iniciarse el proceso de descomposición en el cuerpo se presentan varios cambios, tanto químicos como físicos, conocidos como cambios <em>post-mortem</em>, como ya se ha mencionado los primeros cambios químicos ocurren a nivel intracelular, por ello es de esperarse que en los órganos y tejidos se presente un reordenamiento de la estructura y formación. Como consecuencia de esto se genera un orden de descomposición tanto a nivel celular, de tejidos y de órganos, por tanto, identifique en el siguiente recurso de aprendizaje cómo sucede.
+    p.mb-5 Al iniciarse el <b>proceso de descomposición en el cuerpo</b> se presentan varios cambios, <b><span class="cac">tanto químicos como físicos,</span></b> conocidos como cambios <b><em>post-mortem</em>, <span class="cp">como ya se ha mencionado los primeros cambios químicos ocurren a nivel intracelular,</span></b> por ello es de esperarse <b>que en los órganos y tejidos se presente un reordenamiento de la estructura y formación.</b> Como consecuencia de esto se genera un <b>orden de descomposición tanto a nivel celular, de tejidos y de órganos,</b> por tanto, identifique en el siguiente recurso de aprendizaje cómo sucede.
 
     PasosA.color-primario.mb-5(tipo="n")
       .row.align-items-center
@@ -269,7 +269,7 @@
     #t_2_3.titulo-segundo
       h2 2.3 Periodos y signos de la descomposición
 
-    p.mb-5 El proceso de descomposición de un cuerpo sin vida pasa por varios estados: invisibles, involucra una descomposición microscópica porque al terminarse la reserva de oxígeno presente al momento de la muerte e iniciados los procesos autolíticos estas células mueren y dan paso a los nuevos compuestos químicos, producto de la descomposición que al cabo de unas horas se hará visible y con esta se iniciara la segunda etapa de descomposición donde se hace  físicamente visible la destrucción de los tejidos. Para identificar lo que sucede en el cuerpo según su periodo observe el siguiente recurso educativo.
+    p.mb-5 El <b>proceso de descomposición de un cuerpo sin vida</b> pasa por varios estados: invisibles, involucra una <b><span class="cp">descomposición microscópica</span></b> porque al terminarse la reserva de oxígeno presente al momento de la muerte e iniciados <b>los procesos autolíticos estas células mueren y dan paso a los nuevos compuestos químicos, producto de la descomposición que al cabo de unas horas se hará visible y con esta se iniciara la segunda etapa de descomposición</b> donde se hace  físicamente visible la destrucción de los tejidos. Para identificar lo que sucede en el cuerpo según su periodo observe el siguiente recurso educativo.
 
     figure.mb-5
       .video

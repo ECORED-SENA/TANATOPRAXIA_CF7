@@ -8,11 +8,28 @@
 .cac
   color: $color-acento-contenido !important
 
+.cst
+  color: $color-sistema-texto !important
+
 /*backgrounds*/
 .bloque-texto-b.color-secundario
   &::before
     background-color: #EEEEF2 !important
     opacity: .6
+
+.fblanco
+  background-color: #FFFFFF !important
+
+.fnegro
+  background-color: #000000 !important
+
+.tarjeta--container
+  .tarjeta.color-secundario
+    background-color: #EEEEF2 !important
+
+.tarjeta--container
+  .tarjeta.color-primario
+    background-color: #A6DAD7 !important
 
 /*Estilos de texto*/
 .text-right
@@ -43,21 +60,21 @@
 .tarjeta-white
   background-color: #F6F6F6
   box-shadow: 0px 0px 8px 0px #DEDEDE
-  //background: url('../assets/curso/bg-line1.svg')
+  background: url('../assets/curso/bg-line1.svg')
   background-position: right
   background-size: auto
   background-repeat: no-repeat
   &--color-red
     background-color: #F6F6F6
     box-shadow: 0px 0px 8px 0px #DEDEDE
-    //background: url('../assets/curso/bg-line2.svg')
+    background: url('../assets/curso/bg-line2.svg')
     background-position: right
     background-size: auto
     background-repeat: no-repeat
   &--color-yellow
     background-color: #F6F6F6
     box-shadow: 0px 0px 8px 0px #DEDEDE
-    //background: url('../assets/curso/bg-line3.svg')
+    background: url('../assets/curso/bg-line3.svg')
     background-position: right
     background-size: 8px
     background-repeat: no-repeat
@@ -142,27 +159,27 @@ $tarjeta-dimension-weight2: 230px
   background-position: left top
   background-size: auto
   background-repeat: no-repeat
-  //background-image: url('../assets/curso/nbg1.png')
+  background-image: url('../assets/curso/nbg1.png')
 .bg-num2
   background-position: left top
   background-size: auto
   background-repeat: no-repeat
-  //background-image: url('../assets/curso/nbg2.png')
+  background-image: url('../assets/curso/nbg2.png')
 .bg-num3
   background-position: left top
   background-size: auto
   background-repeat: no-repeat
-  //background-image: url('../assets/curso/nbg3.png')
+  background-image: url('../assets/curso/nbg3.png')
 .bg-num4
   background-position: left top
   background-size: auto
   background-repeat: no-repeat
-  //background-image: url('../assets/curso/nbg4.png')
+  background-image: url('../assets/curso/nbg4.png')
 .bg-num5
   background-position: left top
   background-size: auto
   background-repeat: no-repeat
-  //background-image: url('../assets/curso/nbg5.png')
+  background-image: url('../assets/curso/nbg5.png')
 
 .afterCP1
   border-radius: 1rem
@@ -189,6 +206,17 @@ $tarjeta-dimension-weight2: 230px
     border-bottom-color: $color-primario
   &--cac
     border-bottom-color: $color-acento-contenido
+
+.mmw
+  max-width: 320px
+  min-width: 230px
+
+.bt
+  border-top: solid 5px
+  &--cp
+    border-top-color: $color-primario
+  &--cac
+    border-top-color: $color-acento-contenido
 
 .bs30
   box-shadow: 0 0 3px rgba(0,0,0,0.3)
@@ -292,3 +320,6 @@ $tarjeta-dimension-weight2: 230px
   background-color: #A6DAD7 !important
   &::before
     background-color: #EEEEF2 !important
+
+.boxShadow
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.35)

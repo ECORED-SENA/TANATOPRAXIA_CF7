@@ -10,17 +10,17 @@
 
     .row.align-items-center.mb-5
       .col-lg-5
-        figure
+        figure(data-aos='fade-right')
           img(src='@/assets/curso/t1/f1.png' alt='La muerte como experiencia')
       .col-lg-7
-        p Desde hace miles de años el hombre ha realizado rituales para darle explicación a los fenómenos que ocurren en la cotidianidad de la vida como nacer, crecer y morir. Siendo de estos, la muerte una experiencia rodeada de tabú y explicaciones en todas las religiones, culturas y épocas del ser humano.  
-        p Históricamente se tiene evidencia que incluso desde la época de los neandertales, aproximadamente 400.000 años A.C, se realizaban prácticas con los muertos, empezando por sus cuidados hasta su despedida. El tratamiento que se le realiza a los cuerpos muertos ha marcado grandes momentos de la humanidad, en todos los tiempos y en todas las culturas se han realizado procesos para preservar el cuerpo y los vivos han realizado rituales de despedida. 
+        p Desde hace <b>miles de años el hombre ha realizado rituales para darle explicación a los fenómenos que ocurren en la cotidianidad de la vida como nacer, crecer y morir.</b> Siendo de estos, <b><span class="cp">la muerte una experiencia rodeada de tabú y explicaciones en todas las religiones, culturas y épocas del ser humano.</span></b>  
+        p Históricamente se tiene evidencia que incluso <b>desde la época de los neandertales, aproximadamente 400.000 años A.C,</b> se <b><span class="cp">realizaban prácticas con los muertos, empezando por sus cuidados hasta su despedida.</span></b> El tratamiento que se le realiza a los cuerpos muertos ha marcado grandes momentos de la humanidad, en todos los tiempos y en todas las culturas se han realizado procesos para preservar el cuerpo y los vivos han realizado rituales de despedida. 
     
     .row.align-items-center.mb-5
       .col-lg-7
-        p En la actualidad se siguen realizando procesos para detener temporalmente la descomposición natural del cuerpo, en la que sus familiares o allegados puedan hacer un ritual de despedida. Toda esta historia y la evolución que ha tenido hasta en el momento actual y en Colombia devela la necesidad de profesionalizar el sector funerario para conservar los rituales funerarios y el trato digno en la muerte, ayudando así al trámite del duelo de las personas que quedan.
+        p <b>En la actualidad se siguen realizando procesos para detener temporalmente la descomposición natural del cuerpo</b>, en la que sus familiares o allegados puedan hacer un ritual de despedida. Toda esta historia y la evolución que ha tenido hasta en el momento actual y <b><span class="cp">en Colombia devela la necesidad de profesionalizar el sector funerario para conservar los rituales funerarios</span></b> y el trato digno en la muerte, ayudando así al trámite del duelo de las personas que quedan.
         .cajon.color-secundario.p-4
-          p.mb-0 Etimológicamente hablando la muerte viene de la raíz latina mors - mortis que significa fin o ausencia de vida.  La muerte entonces es la finalización de todas las funciones vitales del organismo como la circulación, la respiración, el sistema nervioso central y lo cognitivo, es decir, que un fallecimiento de un cuerpo humano es un proceso que implica cambios químicos y físicos involucrados en el fin de una vida orgánica. La muerte es la interrupción definitiva de las funciones vitales y la relación de un ser humano con el contexto social. 
+          p.mb-0 Etimológicamente hablando <b>la muerte viene de la raíz latina <span class='cac'><em>mors - mortis</em></span> que significa fin o ausencia de vida.</b>  La muerte entonces <b><span class="cp">es la finalización de todas las funciones vitales del organismo como la circulación, la respiración, el sistema nervioso central y lo cognitivo,</span></b> es decir, que un fallecimiento de un cuerpo humano es un proceso que implica cambios químicos y físicos involucrados en el fin de una vida orgánica. <b>La muerte es la interrupción definitiva de las funciones vitales y la relación de un ser humano con el contexto social.</b> 
       .col-lg-5
         figure
           img(src='@/assets/curso/t1/f2.png' alt='La muerte como experiencia')
@@ -38,14 +38,14 @@
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img.mx-auto(src='@/assets/curso/t1/f4.svg' alt='Imagen relacionada' style='width:155px;')
-              .tarjeta.tarjeta-white--color-red
+              .tarjeta.tarjeta-white--color-red.fblanco
                 .p-4.ps-0.py-5
                   h4 La apoptosis
                   p.mb-0 Es el tipo principal de muerte celular que ocurre en condiciones normales y controladas como en el crecimiento.
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img.mx-auto(src='@/assets/curso/t1/f5.svg' alt='Imagen relacionada' style='width:155px;')
-              .tarjeta.tarjeta-white--color-red
+              .tarjeta.tarjeta-white--color-red.fblanco
                 .p-4.ps-0.py-5
                   h4 La autofagia
                   p.mb-0 Ayuda a las células como mecanismo de defensa del organismo al eliminar células que ya no sirven o son defectuosas, a esto se le llama “auto digestión controlada” y no produce inflamación, ni dolor.
@@ -106,7 +106,7 @@
         figure
           img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
       .col-lg-6
-        p.bordeLnegro.mb-0 Comprendidas algunas causas biológicas por las que un cuerpo puede explorar la muerte, es momento de explicar los tipos de muerte. Cabe mencionar que algunas de ellas requieren una intervención legal que esclarezca el deceso de un cuerpo, estas son:
+        p.bordeLnegro.mb-0 <b>Comprendidas algunas causas biológicas por las que un cuerpo puede explorar la muerte,</b> es momento de <b><span class="cp">explicar los tipos de muerte.</span></b> Cabe mencionar que algunas de ellas requieren una intervención legal que esclarezca el deceso de un cuerpo, estas son:
 
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Muerte natural")
@@ -137,7 +137,7 @@
             figure
               img(src='@/assets/curso/t1/f10.png' alt='Se sospecha violencia o criminalidad')
     
-    p.mb-5 Es responsabilidad del ente médico detectar los signos de fallecimiento y certificar la muerte. Estos signos pueden ser:
+    p.mb-5 <b>Es <span class="cac">responsabilidad</span> del ente médico detectar los signos de fallecimiento y certificar la muerte.</b> Estos signos pueden ser:
 
     .row.align-items-center.justify-content-around.mb-5
       .col-lg-4
@@ -184,7 +184,7 @@
         figure
           img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
       .col-lg-7
-        p.bordeLnegro.mb-0 Los fenómenos agonales son cambios que ocurren en el cuerpo de la persona durante en el proceso del fallecimiento gracias a la disminución metabólica, estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
+        p.bordeLnegro.mb-0 <b><span class="cac">Los fenómenos agonales</span></b> son <b>cambios que ocurren en el cuerpo de la persona durante en el proceso del fallecimiento gracias a la disminución metabólica,</b> estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
       .col
 
     p Se invita a identificar los diferentes cambios que pueden ocurrir en un cuerpo en el marco del anterior fenómeno.
@@ -200,14 +200,14 @@
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img
                   img.mx-auto(src='@/assets/curso/t1/ca.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-red
+                .tarjeta.tarjeta-white--color-red.fblanco
                   .p-4.ps-0.py-5
                     h4 Fiebre agonal
                     p.mb-0 Es la elevación de la temperatura corporal antes del fallecimiento y puede deberse a infecciones o presencia de microorganismos.
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img
                   img.mx-auto(src='@/assets/curso/t1/cb.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-red
+                .tarjeta.tarjeta-white--color-red.fblanco
                   .p-4.ps-0.py-5
                     h4 Algor agonal
                     p.mb-0 Es la disminución de la temperatura corporal, la temperatura se concentra en los órganos principales y las extremidades se tornan frías, por lo general se evidencia en personas de avanzada edad o cuando tienen patologías largas.
@@ -243,13 +243,13 @@
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img
                   img.mx-auto(src='@/assets/curso/t1/ca.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-red
+                .tarjeta.tarjeta-white--color-red.fblanco
                   .p-4.ps-0.py-5
                     p.mb-0 El edema, es la acumulación de líquidos en los tejidos del cuerpo gracias a ciertos tratamientos médicos o patologías.
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img
                   img.mx-auto(src='@/assets/curso/t1/cb.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-red
+                .tarjeta.tarjeta-white--color-red.fblanco
                   .p-4.ps-0.py-5
                     p.mb-0 Deshidratación, como su nombre lo dice es la disminución de los líquidos de los tejidos.
                         
@@ -259,7 +259,7 @@
         figure
           img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
       .col-lg-6
-        p.bordeLnegro.mb-0 Hasta ahora ha leído un fenómeno de los dos mencionados. Es momento que reconozca el fenómeno o cambio <em>postmortem</em>, definido como el cambio que ocurre en el cuerpo después del fallecimiento de la persona, puede presentarse desde las primeras horas y se prolonga con el paso del tiempo. Estos cambios son los que se tratan con las correctas técnicas de embalsamamiento y pueden retrasarse o interrumpirse, en algunos casos pueden hasta revertir levemente alguno de los cambios, siempre y cuando se intervenga el cuerpo en el menor tiempo posible después de la muerte.
+        p.bordeLnegro.mb-0 Hasta ahora ha leído un fenómeno de los dos mencionados. Es momento que reconozca el fenómeno o <b><span class="cac">cambio <em>postmortem</em></span>, definido como el cambio que ocurre en el cuerpo después del fallecimiento de la persona, puede presentarse desde las primeras horas y se prolonga con el paso del tiempo.</b> Estos cambios son los que <b><span class="cp">se tratan con las correctas técnicas de embalsamamiento y pueden retrasarse o interrumpirse,</span></b> en algunos casos pueden hasta revertir levemente alguno de los cambios, siempre y cuando se intervenga el cuerpo en el menor tiempo posible después de la muerte.
 
     p.mb-5 Entre más pase tiempo entre el fallecimiento y la intervención tanatopractor los cambios se harán más graves y se complica más el proceso de preservación. Existen dos tipos de cambios, los físicos y los químicos y, estos a su vez abarcan cambios más específicos. Véalos a continuación.
 

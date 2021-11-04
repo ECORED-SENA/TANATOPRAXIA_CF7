@@ -10,7 +10,7 @@
 
     .row.align-items-center.mb-5
       .col-lg-8
-        p Los químicos que se emplean para embalsamar, llamados fluidos de embalsamamiento están compuestos por diferentes sustancias químicas que en diferentes concentraciones logran efectos diferentes. Se habla que cada componente químico individual tiene su función específica, el cual reacciona según su concentración, distribución, difusión y actividad individual. La mayoría de las sustancias químicas para el embalsamamiento se basan en el formaldehído y metanol como materia prima principal. 
+        p <b>Los químicos que se emplean para embalsamar,</b> llamados fluidos de embalsamamiento <b><span class="cp">están compuestos por diferentes sustancias químicas que en diferentes concentraciones logran efectos diferentes.</span></b> Se habla que cada componente químico individual tiene su función específica, el cual reacciona según su concentración, distribución, difusión y actividad individual. La mayoría de las sustancias químicas para el embalsamamiento se basan en el formaldehído y metanol como materia prima principal. 
         .cajon.color-secundario.p-4
           p.mb-0 Tradicionalmente en Colombia se ha utilizado el formol como preservante, en algunos sitios utilizándolo puro, mezclado con agua y/u otros químicos. De cualquier manera, se debe seguir algún criterio profesional para prever posibles reacciones en el proceso de embalsamamiento, pero nunca se debe utilizar libremente. Todo lo anterior es llamado tanatoquímica, para conocer todo lo relacionado con esta es necesario preguntarse qué es la bioquímica.
       .col-lg-4
@@ -24,7 +24,7 @@
             img(src='@/assets/curso/t4/f2.svg' alt='imagen relacionada')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.mb-0 La bioquímica es el estudio de los procesos químicos relacionados con los organismos vivos. Su enfoque principal es la comprensión de cómo las diferentes moléculas biológicas dan lugar a los procesos que ocurren dentro de las células vivas. Si el tanatopractor logra entender la naturaleza de las moléculas biológicas en el cuerpo humano tendrá una mejor comprensión de las reacciones enzimáticas, la influencia de los conservantes y demás productos químicos en el cuerpo.
+            p.mb-0 <b>La bioquímica es el estudio de los procesos químicos relacionados con los organismos vivos.</b> Su enfoque principal es <b><span class="cp">la comprensión de cómo las diferentes moléculas biológicas dan lugar a los procesos que ocurren dentro de las células vivas.</span></b> Si el tanatopractor logra entender la naturaleza de las moléculas biológicas en el cuerpo humano tendrá una mejor comprensión de las reacciones enzimáticas, la influencia de los conservantes y demás productos químicos en el cuerpo.
 
     .row.align-items-center.mb-4
       .col-lg-7
@@ -146,11 +146,11 @@
           div(numero='6' titulo='Colorantes')
             p Son tintes y pigmentos de coloración solubles en el agua que se usan para producir un efecto cosmético interno y tratan de lograr una coloración natural de los tejidos. Estas sustancias son añadidas en los fluidos arteriales. Existen dos tipos de tintes: 1. Activos que tiñen los tejidos para darle más naturalidad al fallecido e identificar qué zonas del cuerpo están siendo inyectadas y 2. Los tintes inactivos que solamente dan color al químico para codificarlo y este depende en gran medida del pH de la solución. Estas sustancias de coloración se pueden dividir en:
             .row.justify-content-center
-              .col-lg-5
+              .col-lg-5.bt.bt--cac.fblanco.mx-2
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/t4/c1.svg' alt='imagen relacionada').w85px
                 h5.text-center Agentes de coloración naturales.
-              .col-lg-5
+              .col-lg-5.bt.bt--cac.fblanco.mx-2
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/t4/c2.svg' alt='imagen relacionada').w85px
                 h5.text-center Agentes de coloración sintéticos.
@@ -221,15 +221,15 @@
           .col-6
             figure
               img(src='@/assets/curso/t4/f17.svg', alt='imagen relacionada')
-        h2.text-center Desventaja
-        p.text-center La coagulación de la sangre, decoloraciones, deshidratación de tejidos, estrechos capilares y se deteriora con el tiempo.
+        h2.text-center.cst Desventaja
+        p.text-center.cst La coagulación de la sangre, decoloraciones, deshidratación de tejidos, estrechos capilares y se deteriora con el tiempo.
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t4/f18.svg', alt='imagen relacionada')
-        h2.text-center Ventaja
-        p.text-center Es un producto económico, 100% orgánico e inhibe la descomposición de los tejidos producto de la destrucción de las enzimas autolíticas. 
+        h2.text-center.cst Ventaja
+        p.text-center.cst Es un producto económico, 100% orgánico e inhibe la descomposición de los tejidos producto de la destrucción de las enzimas autolíticas. 
 
     p.mb-5 Los fluidos preservantes usados en tanatopraxia son sustancias concentradas que contienen diferentes tipos de compuestos químicos, que cumplen con las funciones de desinfectar y preservar el cadáver, saturando sus tejidos con los componentes de las soluciones químicas que son inyectadas arterialmente o en la cavidad.   La clasificación de estas soluciones, líquidos o fluidos químicos para embalsamar son:
 
@@ -327,40 +327,40 @@
         .fcb.p-4
           h3 Mortuary Labs
           p Es una empresa con actividad comercial desde el año 2017, ubicada en la ciudad de Popayán, Cauca. Cuenta con las líneas de manufactura, servicios y escuela de tanatopraxia.
-          a.boton.fcab.mx-auto(:href="obtenerLink('/downloads/Anexo_2.pdf')" target='_blank')
-            h6.mb-0.text-center Ver más
+        a.boton.fcab.mx-auto(:href="obtenerLink('/downloads/Anexo_2.pdf')" target='_blank')
+          h6.mb-0.text-center Ver más
       .col.mmw
         figure
           img(src='@/assets/curso/t4/f28.png', alt='imagen relacionada')
         .fcp20.p-4
           h3 Skudmart
           p Es una empresa encargada de desarrollar y fabricar novedosas aplicaciones químicas y biotecnológicas para el arte de la tanatopraxia.
-          a.boton.fcab.mx-auto(href='http://skudmart.com/wp-content/uploads/2021/catalogo/Tanatopraxia.pdf' target='_blank')
-            h6.mb-0.text-center Ver más
+        a.boton.fcab.mx-auto(href='http://skudmart.com/wp-content/uploads/2021/catalogo/Tanatopraxia.pdf' target='_blank')
+          h6.mb-0.text-center Ver más
       .col.mmw
         figure
           img(src='@/assets/curso/t4/f29.png', alt='imagen relacionada')
         .fcb.p-4
           h3 Tanatil
           p Es una empresa radicada en la ciudad de Medellín, fundada por la empresa funeraria San Vicente. Cuenta con las líneas de desinfectantes, estética, instrumental y preservantes.
-          a.boton.fcab.mx-auto(href='https://www.funerariasanvicente.com/portal/productos/?q=918' target='_blank')
-            h6.mb-0.text-center Ver más
+        a.boton.fcab.mx-auto(href='https://www.funerariasanvicente.com/portal/productos/?q=918' target='_blank')
+          h6.mb-0.text-center Ver más
       .col.mmw
         figure
           img(src='@/assets/curso/t4/f30.png', alt='imagen relacionada')
         .fcp20.p-4
           h3 The Dodge Company
           p Es una empresa familiar constituida en el año 1893 en Estados Unidos. Son los mayores proveedores y fabricantes de productos químicos y cosméticos para embalsamamiento.
-          a.boton.fcab.mx-auto(href='www.dodgeco.com' target='_blank')
-            h6.mb-0.text-center Ver más
+        a.boton.fcab.mx-auto(href='www.dodgeco.com' target='_blank')
+          h6.mb-0.text-center Ver más
       .col.mmw
         figure
           img(src='@/assets/curso/t4/f31.png', alt='imagen relacionada')
         .fcb.p-4
           h3 U.S. Chemical
           p Son una compañía de suplementos para casas funerarias, cementerios y crematorios.
-          a.boton.fcab.mx-auto(href='www.hepburnsuperior.com' target='_blank')
-            h6.mb-0.text-center Ver más
+        a.boton.fcab.mx-auto(href='www.hepburnsuperior.com' target='_blank')
+          h6.mb-0.text-center Ver más
 
     p.mb-5 Los químicos para el embalsamamiento se pueden clasificar en cavitales (cavidad), especiales y blanqueadores. Los primeros son diseñados exclusivamente con conservantes astringentes de acción rápida y normalmente con una alta concentración de formaldehído; estos se complementan con agentes germicidas y coagulantes porque su propósito es el tratamiento de las vísceras corporales. Los segundos son especialmente diseñados para complementar, equilibrar y controlar la acción de los químicos arteriales; estos pueden ser usados antes o durante la inyección de la solución arterial y, los terceros ayudan a remover coloraciones y manchas temporales, para mayor información observe el siguiente recurso educativo.
 
