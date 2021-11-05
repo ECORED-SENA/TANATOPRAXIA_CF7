@@ -427,18 +427,18 @@
 
     p El uso de químicos para embalsamar un cuerpo depende de los conocimientos de tanatoquímica que posea el embalsamador, por ello se habla que para realizar el proceso de tanatopraxia correctamente se deben tener algunos conceptos: 
     .row.mb-5
-      .col-md-4
-        .fblanco.boxShadow.p-4
+      .col.bb.bb--cab.mx-3.boxShadow
+        .fblanco.p-4
           figure
             img(src='@/assets/curso/t4/f34.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
           p.text-center Saber y aplicar el funcionamiento de los líquidos preservantes y su dosificación.
-      .col-md-4
-        .fblanco.boxShadow.p-4
+      .col.bb.bb--cac.mx-3.boxShadow
+        .fblanco.p-4
           figure
             img(src='@/assets/curso/t4/f35.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
           p.text-center Conocer y saber elegir el método de inyección y drenaje apropiado para cada caso.
-      .col-md-4
-        .fblanco.boxShadow.p-4
+      .col.bb.bb--cp.mx-3.boxShadow
+        .fblanco.p-4
           figure
             img(src='@/assets/curso/t4/f36.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
           p.text-center Conocer los pormenores del tratamiento de cavidades y superficie.

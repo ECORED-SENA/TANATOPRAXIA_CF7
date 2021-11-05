@@ -19,15 +19,15 @@
       p.mb-0 El tratamiento de cavidad se define como el tratamiento directo que no se realiza por medio de la inyección arterial, es un tratamiento que se realiza mediante la aspiración de los contenidos de las vísceras huecas y de la inyección de fluidos de cavidad con el propósito de realizar la desinfección para alcanzar las sustancias y/o microorganismos que se encuentran en la cavidad toracoabdominal, pélvica y algunas veces craneal. Este procedimiento se realiza después de culminada la inyección arterial y dependiendo de las características del cuerpo se podría repetir o no; los propósitos principales de este procedimiento son:
 
     .row.mb-5
-      .col-lg-4.fblanco.p-4.text-center
+      .col.boxShadow.mx-2.fblanco.p-4.text-center.bb.bb--cp
         figure
           img(src='@/assets/curso/t6/f2.svg' alt='icono relacionado').w85px.mx-auto.mb-4
         p Realizar la desinfección y preservación de las vísceras, ya que algunos órganos huecos como lo son el estómago, intestinos y vejiga contienen en su interior sustancias o materias extrañas que pueden acelerar los procesos de descomposición.
-      .col-lg-4.fblanco.p-4.text-center
+      .col.boxShadow.mx-2.fblanco.p-4.text-center.bb.bb--cac
         figure
           img(src='@/assets/curso/t6/f3.svg' alt='icono relacionado').w85px.mx-auto.mb-4
         p Proporcionar una ayuda eficaz contra la putrefacción, ya que desinfecta y conserva dichas cavidades.
-      .col-lg-4.fblanco.p-4.text-center
+      .col.boxShadow.mx-2.fblanco.p-4.text-center.bb.bb--cp
         figure
           img(src='@/assets/curso/t6/f4.svg' alt='icono relacionado').w85px.mx-auto.mb-4
         p Remover la sangre del corazón y del tronco que no es eliminada mediante el drenaje vascular durante la inyección arterial. 
@@ -39,11 +39,12 @@
         .col-md-5.m-0
           figure
             img(src='@/assets/curso/t6/f5.png', alt='imagen relacionada').mb-4
-        .col-lg-7.m-0.fnegro
-          figure
-            img(src='@/assets/curso/t6/f6.svg', alt='imagen relacionada').mb-4
-          p.texto-blanco <em>A continuación, se describen las regiones abdominales por el método de nueve regiones, que es la división de la cavidad abdominal mediante dos líneas verticales hacia arriba, partiendo de la sínfisis púbica y de dos líneas horizontales, una superior trazada por el punto más bajo del margen costal de cada lado por el nivel inferior del décimo cartílago costal y otra línea horizontal inferior marcada entre las protuberancias de las crestas iliacas, como se muestra en la imagen.</em>
-          p.texto-blanco <em>Esta guía servirá para identificar los órganos presentes en cada cuadrante y así determinar las áreas en las cuales se necesita mayor nivel de tratamiento e identificar qué zonas han sido tratadas.</em>
+        .col-lg-7.m-0.fnegro.contenedorNegro
+          .p-5
+            figure
+              img(src='@/assets/curso/t6/f6.svg', alt='imagen relacionada', style='height:90px').mb-4
+            p.texto-blanco <em>A continuación, se describen las regiones abdominales por el método de nueve regiones, que es la división de la cavidad abdominal mediante dos líneas verticales hacia arriba, partiendo de la sínfisis púbica y de dos líneas horizontales, una superior trazada por el punto más bajo del margen costal de cada lado por el nivel inferior del décimo cartílago costal y otra línea horizontal inferior marcada entre las protuberancias de las crestas iliacas, como se muestra en la imagen.</em>
+            p.texto-blanco <em>Esta guía servirá para identificar los órganos presentes en cada cuadrante y así determinar las áreas en las cuales se necesita mayor nivel de tratamiento e identificar qué zonas han sido tratadas.</em>
 
     p Al reconocer las regiones abdominales anteriormente descritas se realiza la técnica de aspiración con el trocar que consiste en establecer un punto de entrada, este ubicado generalmente a 5 cm a la izquierda y 5 cm arriba del ombligo, desde esta entrada el embalsamador puede alcanzar todos los cuadrantes anteriormente mencionados para encontrar ubicado el hígado; es más fácil insertar y sacar el trocar de esta víscera que, del lado contrario, además allí se encuentran los intestinos. 
     .cajon.color-secundario.p-4.mb-5
@@ -51,20 +52,22 @@
 
     .contenedor
       .row
-        .col-lg-7.m-0.fnegro.fnegro.order-lg-first.order-md-last
-          figure
-            img(src='@/assets/curso/t6/f7.svg', alt='imagen relacionada').mb-4
-          p.texto-blanco <em>El proceso de aspiración se debe realizar en orden para abarcar toda la cavidad toracoabdominal y pélvica, recuerde que los gases por lo general se encuentran en las partes anteriores de la cavidad toracoabdominal, y los líquidos en las partes posteriores de la cavidad, se sugiere realizar la aspiración en tres niveles: zona anterior de la cavidad, de derecha a izquierda dentro de la parte media de la cavidad y por último, de derecha a izquierda en las zonas más alejadas o profundas de la cavidad, todo esto con el fin de abarcar la mayor cantidad de material allí alojado.</em>
-          p.texto-blanco <em>En la imagen que observa se señala el punto de entrada del trocar y las líneas puntiagudas direccionan el camino de este por los cuadrantes, para realizar la aspiración de los contenidos que allí se encuentren.</em>
-        .col-md-5.m-0.fnegro.order-md-first.order-lg-last
+        .col-lg-5.m-0.fnegro.order-lg-first.order-last.contenedorNegro
+          .p-5
+            figure
+              img(src='@/assets/curso/t6/f7.svg', alt='imagen relacionada', style='height:90px').mb-4
+            p.texto-blanco <em>El proceso de aspiración se debe realizar en orden para abarcar toda la cavidad toracoabdominal y pélvica, recuerde que los gases por lo general se encuentran en las partes anteriores de la cavidad toracoabdominal, y los líquidos en las partes posteriores de la cavidad, se sugiere realizar la aspiración en tres niveles: zona anterior de la cavidad, de derecha a izquierda dentro de la parte media de la cavidad y por último, de derecha a izquierda en las zonas más alejadas o profundas de la cavidad, todo esto con el fin de abarcar la mayor cantidad de material allí alojado.</em>
+            p.texto-blanco <em>En la imagen que observa se señala el punto de entrada del trocar y las líneas puntiagudas direccionan el camino de este por los cuadrantes, para realizar la aspiración de los contenidos que allí se encuentren.</em>
+        .col.m-0.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t6/f8.png', alt='imagen relacionada').mb-4
       .row
-        .col-md-5.m-0
+        .col.m-0
           figure
             img(src='@/assets/curso/t6/f9.png', alt='imagen relacionada').mb-4
-        .col-lg-7.m-0.fnegro
-          p.texto-blanco <em>La aspiración craneal, en caso de realizarse, debe hacerse insertando un trocar pequeño por la fosa nasal derecha o izquierda, empujándolo a través de la lámina cribosa del etmoides. El trocar ingresará a la parte anterior de la cavidad craneal, aunque no es posible alcanzar la parte posterior del cráneo, por ello, se deberá eliminar todo el gas de la zona anterior del cráneo. Luego de realizar el proceso de aspiración inyecte una pequeña cantidad de líquido a la cavidad y proceda a taponar adecuadamente la fosa nasal para evitar fugas.</em>
+        .col-lg-7.m-0.fnegro.contenedorNegro
+          .p-5
+            p.texto-blanco <em>La aspiración craneal, en caso de realizarse, debe hacerse insertando un trocar pequeño por la fosa nasal derecha o izquierda, empujándolo a través de la lámina cribosa del etmoides. El trocar ingresará a la parte anterior de la cavidad craneal, aunque no es posible alcanzar la parte posterior del cráneo, por ello, se deberá eliminar todo el gas de la zona anterior del cráneo. Luego de realizar el proceso de aspiración inyecte una pequeña cantidad de líquido a la cavidad y proceda a taponar adecuadamente la fosa nasal para evitar fugas.</em>
 
     p.mb-4 Luego de terminar con el proceso inicial de aspiración de la cavidad toracoabdominal y pélvica se procede a realizar la inyección de fluido preservante en esa área, se hace uso de los líquidos especializados para el tratamiento de la cavidad, sin diluir, ya que esta área se encuentra llena de gran cantidad de materia como sangre, linfa, alimentos sin digerir y materia fecal, que son altamente putrefactivos.  El fluido de cavidad no tiene la ventaja de usar el sistema capilar para su distribución por los órganos, por ello, este líquido debe saturar las vísceras y su contenido casi en su totalidad por medio de la penetración de las paredes viscerales y la masa del tejido. 
     .row.mb-4

@@ -137,7 +137,7 @@
       .row
         .col.m-0.fnegro.order-lg-first.order-last
           figure
-            img(src='@/assets/curso/t5/f9.svg', alt='imagen relacionada').mb-4
+            img(src='@/assets/curso/t5/f9.svg', alt='imagen relacionada', style='height:90px').mb-4
           p.texto-blanco <em>El cayado aórtico contiene arterias. La arteria braquiocefálica se encarga de irrigar la zona derecha de la cabeza y el brazo derecho. La arteria carótida común izquierda irriga la zona izquierda de la cabeza.  La arteria subclavia izquierda que irriga el brazo izquierdo y un arco llamado la aorta torácica descendente que irriga las demás zonas del cuerpo.</em>
         .col-lg-7.m-0.order-first.order-lg-last
           figure
@@ -200,28 +200,32 @@
           p.mb-0 Comprendido lo anterior, se describen unas prácticas que puede ejecutar en el laboratorio de tanatopraxia cuando debe seleccionar la guía vascular. 
 
     .contenedor
-      .row.mb-5
-        .col-md-5.m-0.fnegro
+      .row
+        .col.m-0.fnegro.order-lg-first.order-last
           figure
             img(src='@/assets/curso/t5/f16.svg', alt='imagen relacionada').mb-4
           p.texto-blanco <em>Es un punto de inyección que tiene una guía vascular grande que se puede levantar desde el exterior del cuerpo.  En simultáneo a la vena yugular, es un muy buen punto de drenaje. Esta arteria es la más práctica porque tiene acceso directo al cayado aórtico, a través del tronco braquiocefálico y la vena yugular derecha se direcciona de manera directa con la aurícula derecha del corazón, la cual es el punto central de drenaje sanguíneo.</em>
           p.texto-blanco <em>Ambas se encuentran en el cuello, comienzan desde la clavícula hasta el lóbulo de la oreja. La incisión se realiza encima de la clavícula, en la parte inferior del cuello. La arteria y vena son fáciles de encontrar, pues ambas poseen diámetros grandes y definidos que permiten irrigar muy bien el cuerpo.</em>
           p.texto-blanco <em>Raramente están obstruidas, de hecho, si el cuerpo presenta complicaciones es el mejor punto de inyección y drenaje. </em>
           p.texto-blanco <em>Cuando utilice la cánula para inyección se dirige hacia el corazón para que irrigue todo el cuerpo, de ser necesario se direccionará hacia arriba para irrigar el rostro, con lo cual se debe tener cuidado para no sobreinyectar esa región y deshidratarla más de lo necesario. En caso tal, podrá usar una solución diferente para el rostro y otra para el cuerpo, la única desventaja es que por su ubicación queda la incisión muy visible. Se recomienda no hacerla tan larga para que al cerrarla se vea estéticamente bien.  Selle con pegamento y aplicando algodón o material absorbente, no es necesario suturar a menos que el cuerpo necesite un sellado completo por presencia de edema, se recomienda que la incisión sea de unos 2 cm en promedio, pero que tenga el espacio suficiente para que el drenaje sea continuo y sin obstrucción de piel o músculos.</em>
-        .col-lg-7.m-0
+        .col-lg-7.m-0.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t5/f17.png', alt='imagen relacionada').mb-4
-        .col-md-5.m-0
+      .row
+        .col.m-0
           figure
             img(src='@/assets/curso/t5/f18.png', alt='imagen relacionada').mb-4
-        .col-lg-7.m-0.fnegro
-          p.texto-blanco <em>Son continuaciones de la arteria subclavia y a pesar de encontrarse cerca al corazón, lo que permite irrigar todo el cuerpo y ocultar la incisión fácilmente, presenta algunos inconvenientes como en el drenaje que no es tan bueno.</em>
-          p.texto-blanco <em>Estas arterias y venas son buenas cuando se debe aplicar la preservación localizada,  pero no cuando se aplican grandes volúmenes de solución preservante que requieran grandes volúmenes de drenaje. Se debe direccionar hacia el corazón para que irrigue todo el cuerpo.  Si se seleccionan se debe irrigar hacia el lado contrario para que irrigue la extremidad de la mano; sin embargo, con el solo direccionamiento hacia el corazón la mano queda con una irrigación completa, cuyo factor además hace que se deshidrate y fije la piel del brazo hasta el punto de verse poco estético y completamente rígido; por presentar tantas ramificaciones suele tener problemas de drenaje por la sobrecarga de fluido en la extremidad; el diámetro de la arteria y de la vena son de diámetros muy pequeños, para localizarla se debe extender el brazo.</em>
-        .col-md-5.m-0.fnegro
-          figure
-            img(src='@/assets/curso/t5/f19.svg', alt='imagen relacionada').mb-4
-          p.texto-blanco <em>Es el segundo punto de inyección y drenaje más recurrente; es la continuación de las arterias ilíacas. Al ubicarse la arteria hacia al corazón irriga muy bien todo el cuerpo. Se debe dirigir también a la pierna para irrigar, el diámetro de ambas es grande y la incisión queda oculta, son relativamente fáciles de encontrar; sin embargo, en casos de cuerpos obesos se complica un poco, a pesar de no ser tan cercano al corazón tiene muy buenos resultados.</em>
-        .col-lg-7.m-0
+        .col-lg-7.m-0.fnegro.contenedorNegro
+          .p-5
+            p.texto-blanco <em>Son continuaciones de la arteria subclavia y a pesar de encontrarse cerca al corazón, lo que permite irrigar todo el cuerpo y ocultar la incisión fácilmente, presenta algunos inconvenientes como en el drenaje que no es tan bueno.</em>
+            p.texto-blanco <em>Estas arterias y venas son buenas cuando se debe aplicar la preservación localizada,  pero no cuando se aplican grandes volúmenes de solución preservante que requieran grandes volúmenes de drenaje. Se debe direccionar hacia el corazón para que irrigue todo el cuerpo.  Si se seleccionan se debe irrigar hacia el lado contrario para que irrigue la extremidad de la mano; sin embargo, con el solo direccionamiento hacia el corazón la mano queda con una irrigación completa, cuyo factor además hace que se deshidrate y fije la piel del brazo hasta el punto de verse poco estético y completamente rígido; por presentar tantas ramificaciones suele tener problemas de drenaje por la sobrecarga de fluido en la extremidad; el diámetro de la arteria y de la vena son de diámetros muy pequeños, para localizarla se debe extender el brazo.</em>
+      .row
+        .col.m-0.fnegro.order-lg-first.order-last.contenedorNegro
+          .p-5
+            figure
+              img(src='@/assets/curso/t5/f19.svg', alt='imagen relacionada').mb-4
+            p.texto-blanco <em>Es el segundo punto de inyección y drenaje más recurrente; es la continuación de las arterias ilíacas. Al ubicarse la arteria hacia al corazón irriga muy bien todo el cuerpo. Se debe dirigir también a la pierna para irrigar, el diámetro de ambas es grande y la incisión queda oculta, son relativamente fáciles de encontrar; sin embargo, en casos de cuerpos obesos se complica un poco, a pesar de no ser tan cercano al corazón tiene muy buenos resultados.</em>
+        .col-lg-7.m-0.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t5/f21.png', alt='imagen relacionada').mb-4
 
@@ -399,26 +403,26 @@
 
     p Para comprender un poco mejor el movimiento de los fluidos es necesario tener en cuenta la definición de los siguientes términos:
     .row.px-5.mb-5
-      .col-lg-3.p-4.text-center
+      .col.mmw.p-4.text-center.bt.bt--cp.tarjeta--gris.mx-2
         figure
           img(src='@/assets/curso/t5/f33.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 Cohesión es la resistencia que hace un líquido en un medio que lo contenga. 
-        p 
-      .col-lg-3.p-4.text-center
+        h4 Cohesión
+        p Es la resistencia que hace un líquido en un medio que lo contenga. 
+      .col.mmw.p-4.text-center.bt.bt--cac.tarjeta--gris.mx-2
         figure
           img(src='@/assets/curso/t5/f34.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 Arrastre es la fuerza ejercida por el fluido contra la superficie donde se mueve.
-        p 
-      .col-lg-3.p-4.text-center
+        h4 Arrastre
+        p Es la fuerza ejercida por el fluido contra la superficie donde se mueve.
+      .col.mmw.p-4.text-center.bt.bt--cp.tarjeta--gris.mx-2
         figure
           img(src='@/assets/curso/t5/f35.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 Presión es la medida volumétrica respecto a la intensidad que se ejerce contra una masa.
-        p 
-      .col-lg-3.p-4.text-center
+        h4 Presión
+        p Es la medida volumétrica respecto a la intensidad que se ejerce contra una masa.
+      .col.mmw.p-4.text-center.bt.bt--cac.tarjeta--gris.mx-2
         figure
           img(src='@/assets/curso/t5/f36.svg', alt='imagen relacionada').w85px.mx-auto.mb-4
-        h4 Rango de flujo (caudal) es el volumen o cantidad total de un fluido en un lapso determinado.
-        p 
+        h4 Rango de flujo (caudal)
+        p Es el volumen o cantidad total de un fluido en un lapso determinado.
 
     p.mb-4 Al conocer el movimiento de los fluidos por los canales vasculares se debe hablar de la difusión de la solución arterial de preservación, para comprender mejor cómo llega a cumplir su propósito de preservación. Esta se define como “el paso de algunos elementos de las soluciones de embalsamamiento inyectadas desde dentro del capilar (intravascular) hacia los espacios tisulares (extravasculares)” (Mayer, 2006, p. 281). 
     .row.mb-4

@@ -27,7 +27,7 @@
   background-color: #D1EBEA !important
 
 .fnegro
-  background-color: #000000 !important
+  background-color: #1D272B !important
 
 .tarjeta--container
   .tarjeta.color-secundario
@@ -81,6 +81,13 @@
     background-color: #F6F6F6
     box-shadow: 0px 0px 8px 0px #DEDEDE
     background: url('../assets/curso/bg-line3.svg')
+    background-position: right
+    background-size: 8px
+    background-repeat: no-repeat
+  &--color-black
+    background-color: #F6F6F6
+    box-shadow: 0px 0px 8px 0px #DEDEDE
+    background: url('../assets/curso/bg-line4.svg')
     background-position: right
     background-size: 8px
     background-repeat: no-repeat
@@ -215,6 +222,8 @@ $tarjeta-dimension-weight2: 230px
     border-bottom-color: $color-primario
   &--cac
     border-bottom-color: $color-acento-contenido
+  &--cab
+    border-bottom-color: $color-acento-botones
 
 .mmw
   max-width: 320px
@@ -226,6 +235,8 @@ $tarjeta-dimension-weight2: 230px
     border-top-color: $color-primario
   &--cac
     border-top-color: $color-acento-contenido
+  &--cab
+    border-bottom-color: $color-acento-botones
 
 .bs30
   box-shadow: 0 0 3px rgba(0,0,0,0.3)
@@ -350,3 +361,13 @@ $tarjeta-dimension-weight2: 230px
 .contenedor
   margin: 1rem -3rem
   padding:  3rem
+
+/*.row
+  margin-top: 1rem
+  margin-bottom: 1rem
+.col.m-0.fnegro
+  figure
+    width: 250px
+  .p-5
+    figure
+      width: 250px
