@@ -10,9 +10,9 @@
 
     .row.align-items-center.mb-5
       .col-lg-8
-        p <b>Los químicos que se emplean para embalsamar,</b> llamados fluidos de embalsamamiento <b><span class="cp">están compuestos por diferentes sustancias químicas que en diferentes concentraciones logran efectos diferentes.</span></b> Se habla que cada componente químico individual tiene su función específica, el cual reacciona según su concentración, distribución, difusión y actividad individual. La mayoría de las sustancias químicas para el embalsamamiento se basan en el formaldehído y metanol como materia prima principal. 
+        p <b>Los químicos que se emplean para embalsamar,</b> llamados fluidos de embalsamamiento <b><span class="cp">están compuestos por diferentes sustancias químicas que en diferentes concentraciones logran efectos diferentes.</span></b> Se habla que <b>cada componente químico individual tiene su función específica, el cual reacciona según su concentración, distribución, difusión y actividad individual.</b> La mayoría de las <b><span class="cac">sustancias químicas</span> para el embalsamamiento se basan en el formaldehído y metanol como materia prima principal.</b> 
         .cajon.color-secundario.p-4
-          p.mb-0 Tradicionalmente en Colombia se ha utilizado el formol como preservante, en algunos sitios utilizándolo puro, mezclado con agua y/u otros químicos. De cualquier manera, se debe seguir algún criterio profesional para prever posibles reacciones en el proceso de embalsamamiento, pero nunca se debe utilizar libremente. Todo lo anterior es llamado tanatoquímica, para conocer todo lo relacionado con esta es necesario preguntarse qué es la bioquímica.
+          p.mb-0 Tradicionalmente <b>en Colombia se ha utilizado el formol como preservante, en algunos sitios utilizándolo puro, mezclado con agua y/u otros químicos.</b> De cualquier manera, <b><span class="cp">se debe seguir algún criterio profesional para prever posibles reacciones en el proceso de embalsamamiento, pero nunca se debe utilizar libremente.</span></b> Todo lo anterior es llamado <b><span class="cac">tanatoquímica,</span></b> para conocer todo lo relacionado con esta es necesario preguntarse qué es la bioquímica.
       .col-lg-4
         figure
           img(src='@/assets/curso/t4/f1.png' alt='Químicos para embalsamar')
@@ -24,21 +24,31 @@
             img(src='@/assets/curso/t4/f2.svg' alt='imagen relacionada')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.mb-0 <b>La bioquímica es el estudio de los procesos químicos relacionados con los organismos vivos.</b> Su enfoque principal es <b><span class="cp">la comprensión de cómo las diferentes moléculas biológicas dan lugar a los procesos que ocurren dentro de las células vivas.</span></b> Si el tanatopractor logra entender la naturaleza de las moléculas biológicas en el cuerpo humano tendrá una mejor comprensión de las reacciones enzimáticas, la influencia de los conservantes y demás productos químicos en el cuerpo.
+            p.mb-0 <b>La bioquímica es el estudio de los procesos químicos relacionados con los organismos vivos.</b> Su enfoque principal es <b><span class="cp">la comprensión de cómo las diferentes moléculas biológicas dan lugar a los procesos que ocurren dentro de las células vivas.</span></b> Si el tanatopractor logra entender la naturaleza de las moléculas biológicas en el cuerpo humano tendrá una mejor comprensión de las reacciones enzimáticas, <b>la influencia de los conservantes y demás productos químicos en el cuerpo.</b>
 
     .row.align-items-center.mb-4
       .col-lg-7
-        p Comprendido lo anterior, podrá iniciar con la comprensión del proceso de descomposición desde el momento de la muerte; este proceso comienza con el rompimiento de carbohidratos, continuando la ruptura de las proteínas a través de un curso descrito como putrefacción. A medida que ocurre esto, los lípidos y las grasas se descomponen también en pequeñas subunidades. Este proceso no se puede detener, pero ciertamente puede ser disuadido el tiempo suficiente con productos químicos de embalsamamiento para que el cuerpo pueda verse después de la muerte. Las soluciones de embalsamamiento se componen de una variedad de preservantes (comúnmente aldehídos), productos sanitizadores, desinfectantes y otros aditivos que se inyectan en el cuerpo para detener temporalmente la descomposición que comenzó en el momento de la muerte (Damon de la Cruz & Robert Holmes, 2018).
+        p Comprendido lo anterior, podrá iniciar con <b>la comprensión del proceso de descomposición desde el momento de la muerte; este proceso comienza con el rompimiento de carbohidratos, continuando la ruptura de las proteínas a través de un curso descrito como putrefacción.</b> A medida que ocurre esto, los lípidos y las grasas se descomponen también en pequeñas subunidades. Este proceso no se puede detener, pero ciertamente puede ser disuadido el tiempo suficiente con productos químicos de embalsamamiento para que el cuerpo pueda verse después de la muerte. <b>Las soluciones de embalsamamiento se componen de una variedad de preservantes (comúnmente aldehídos), productos sanitizadores, desinfectantes y otros aditivos que se inyectan en el cuerpo para detener temporalmente la descomposición que comenzó en el momento de la muerte <span class="cp">(Damon de la Cruz & Robert Holmes, 2018).</span></b>
       .col-lg-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/t4/f3.png' alt='Proceso de descomposición')
-    p Definida la bioquímica, es necesario que entienda una sustancia química como los elementos y compuestos químicos y sus mezclas, ya sean naturales o sintéticas, tales como los obtenidos a través de los procesos de producción (Convenio de la Organización Internacional del Trabajo, 1990). Los químicos se dividen en dos grupos, el primer grupo son los productos químicos orgánicos, que son aquellos que contienen carbono, por ejemplo, el alcohol, etanol, acetatos, aminas, nitrilos, sulfatos, ésteres y fosfatos. 
+    p Definida la bioquímica, es necesario que entienda una sustancia química como los elementos y compuestos químicos y sus mezclas, ya sean naturales o sintéticas, tales como los obtenidos a través de los procesos de producción 
+      b.cp (Convenio de la Organización Internacional del Trabajo, 1990). 
+      b Los químicos se dividen en dos grupos, 
+      b.cp el primer grupo son los productos químicos orgánicos, 
+      b que son aquellos que contienen carbono, por ejemplo, el alcohol, etanol, acetatos, aminas, nitrilos, sulfatos, ésteres y fosfatos. 
     .row.align-items-center.mb-4
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/t4/f4.svg' alt='Productos químicos inorgánicos')
       .col-lg-8
-        p El segundo grupo son los productos químicos inorgánicos, que hacen referencia a todos los demás elementos de la tabla periódica y sus compuestos, por ejemplo, el ácido sulfúrico y el amoniaco. Estas sustancias químicas peligrosas representan riesgos para el personal que las maneja, en este caso el tanatopractor. Las principales características de las sustancias químicas peligrosas son: su toxicidad, inflamabilidad y explosividad, reactividad violenta y radioactividad, y el grado de riesgo depende de factores como:
+        p 
+          b.cp El segundo grupo son los productos químicos inorgánicos, 
+          b que hacen referencia a todos los demás elementos de la tabla periódica y sus compuestos, por ejemplo, el ácido sulfúrico y el amoniaco. 
+          | Estas sustancias químicas peligrosas 
+          b.cac representan riesgos para el personal que las maneja, en este caso el tanatopractor. 
+          b Las principales características de las sustancias químicas peligrosas son: su toxicidad, inflamabilidad y explosividad, reactividad violenta y radioactividad, 
+          | y el grado de riesgo depende de factores como:
         ol.lista-ol--cuadro.lista-ol--separador
                   li 
                     .lista-ol--cuadro__vineta.fcp
@@ -214,7 +224,12 @@
               figure(data-aos="fade-left")
                 img(src='@/assets/curso/t4/f16.svg' alt='imagen relacionada')
 
-    p.mb-5 El formaldehído tiene un amplio espectro, puede ser un desinfectante de alto nivel en concentraciones de 8% formol y 70% alcohol. En el campo de la tanatopraxia llega a destruir las bacterias putrefactivas. A nivel de los tejidos permite su preservación al formar compuestos nuevos que son alimentos inadecuados para los organismos causantes de la descomposición. 
+    p.mb-5 
+      b.cp El formaldehído tiene un amplio espectro, 
+      | puede ser un 
+      b.cac desinfectante de alto nivel en concentraciones de 8% formol y 70% alcohol. 
+      b En el campo de la tanatopraxia llega a destruir las bacterias putrefactivas. 
+      b.cp A nivel de los tejidos permite su preservación al formar compuestos nuevos que son alimentos inadecuados para los organismos causantes de la descomposición. 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -231,7 +246,11 @@
         h2.text-center.cst Ventaja
         p.text-center.cst Es un producto económico, 100% orgánico e inhibe la descomposición de los tejidos producto de la destrucción de las enzimas autolíticas. 
 
-    p.mb-5 Los fluidos preservantes usados en tanatopraxia son sustancias concentradas que contienen diferentes tipos de compuestos químicos, que cumplen con las funciones de desinfectar y preservar el cadáver, saturando sus tejidos con los componentes de las soluciones químicas que son inyectadas arterialmente o en la cavidad.   La clasificación de estas soluciones, líquidos o fluidos químicos para embalsamar son:
+    p.mb-5 
+      b Los fluidos preservantes usados en tanatopraxia son sustancias concentradas que contienen diferentes tipos de compuestos químicos, 
+      | que cumplen con las 
+      b.cp funciones de desinfectar y preservar el cadáver, saturando sus tejidos con los componentes de las soluciones químicas que son inyectadas arterialmente o en la cavidad. 
+      | La clasificación de estas soluciones, líquidos o fluidos químicos para embalsamar son:
 
     TabsA.color-primario.mb-5
       .tarjeta.color-secundario--borde.p-4(titulo="Fórmulas básicas")
@@ -319,7 +338,7 @@
       .tarjeta.tarjeta-white--color-red
         .p-4.ps-0.py-5
           p Es importante mencionar que los químicos también se pueden clasificar por su utilización.  Estos químicos o fluidos arteriales preservantes son ligeramente alcalinos con pH entre 7,2 y 7,4, que se utilizan única y exclusivamente para ser inyectados arterialmente y siempre se deben inyectar mezclados con agua.
-          p.mb-0 Hasta aquí, se ha hecho una presentación de las propiedades de los químicos utilizados durante el embalsamamiento. A continuación, se listan algunas empresas proveedoras de químicos arteriales tanto nacionales como internacionales, para que pueda identificar su razón de ser y/o catálogo de productos. 
+    p.mb-5 Hasta aquí, se ha hecho una presentación de las propiedades de los químicos utilizados durante el embalsamamiento. A continuación, se listan algunas empresas proveedoras de químicos arteriales tanto nacionales como internacionales, para que pueda identificar su razón de ser y/o catálogo de productos. 
 
     .row.justify-content-center.mb-5
       .col.mmw.fcb.h500px.p-0.mx-2

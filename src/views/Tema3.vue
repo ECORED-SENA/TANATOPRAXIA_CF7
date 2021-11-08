@@ -48,19 +48,19 @@
           img(src='@/assets/curso/t3/f4.png', alt='Proceso natural de la muerte, cuerpo humano')
       .col-lg-8
         p El proceso natural de la muerte del cuerpo humano conduce a una <b>descomposición de los tejidos</b>, entonces, con la <b><span class="cp">preservación química se pretende retardar por un tiempo específico</span></b> todos los cambios tanto físicos como químicos de la muerte. 
-        p Este proceso se define como el intercambio de fluidos a nivel intravascular, usando dos guías vasculares a través de una máquina inyectora de solución química por las arterias principales (guía vascular) y luego se drena el exceso de sangre y líquidos por las venas (guía vascular). 
+        p Este proceso se define como el <b>intercambio de fluidos a nivel intravascular, usando dos guías vasculares a través de una máquina inyectora de solución química por las arterias principales <span class="cac">(guía vascular)</span></b> y luego se drena el exceso de sangre y líquidos por las venas <b><span class="cp">(guía vascular).</span></b> 
 
     .row.align-items-center.mb-4
       .col-lg-9
-        p Una vez culminada la inyección arterial se procede a la preservación de los órganos toraco abdominales pélvicos en el que se extraen líquidos, sólidos, semisólidos y gases presentes en esa zona. Esta acción comienza con la aplicación del líquido preservante especializado para cavidad, este se debe dejar actuar durante un tiempo que cada cuerpo lo requiera. 
-        p Cabe mencionar que el tanatopractor tiene la posibilidad de extraer el exceso de líquidos que quedan presentes en el cadáver, y finalizar con el secado y cierre de todas las incisiones que se realizaron al cuerpo. Si bien este es el proceso descrito de forma general, se invita a continuar su lectura para la apropiación de información que le ayude al desarrollo de las actividades de aprendizaje. 
+        p Una vez culminada la <b>inyección arterial se procede a la preservación de los órganos toraco abdominales pélvicos en el que se extraen líquidos, sólidos, semisólidos y gases presentes en esa zona.</b> Esta acción comienza con la <b><span class="cp">aplicación del líquido preservante especializado para cavidad,</span></b> este se debe dejar actuar durante un tiempo que cada cuerpo lo requiera. 
+        p Cabe mencionar que <b></b> Si bien este es el proceso descrito de forma general, se invita a continuar su lectura para la apropiación de información que le ayude al desarrollo de las actividades de aprendizaje. 
       .col-lg-3
         figure
           img(src='@/assets/curso/t3/f5.png', alt='Proceso natural de la muerte, cuerpo humano')
 
     .cajon.color-secundario.p-4.mb-4
-      p.mb-0 Con lo mencionado hasta aquí se puede comprender que la preservación tiene una importancia muy alta dentro del proceso del embalsamamiento, porque de él depende que el servicio funerario sea llevado con éxito en el tiempo que lo requiera la familia. 
-    p.mb-5 Durante la preservación química debe interpretar que los cuerpos son diferentes a nivel de patologías y signos de la muerte; por lo tanto, realice una observación detallada de las condiciones en que se encuentra el cadáver, es decir, el análisis de embalsamamiento, este permite abordar cada cuerpo de manera correcta e individual, disminuyendo los errores del embalsamamiento; por eso, es importante tener la orden de servicio o un informe con las especificaciones del proceso a desarrollar con el cuerpo sin vida y situarlos en los momentos de la desinfección, preservación química y tanatoestética; pero sabe ¿cuál es el protocolo para comenzar la preservación?, por ello, revise el siguiente recurso educativo.
+      p.mb-0 Con lo mencionado hasta aquí se puede comprender que <b><span class="cp">la preservación tiene una importancia muy alta dentro del proceso del embalsamamiento, porque de él depende que el servicio funerario sea llevado con éxito en el tiempo que lo requiera la familia.</span></b>
+    p.mb-5 <b>Durante la preservación química debe interpretar que los cuerpos son diferentes a nivel de patologías y signos de la muerte;</b> por lo tanto, realice una observación detallada de las condiciones en que se encuentra el cadáver, es decir, <b><span class="cp">el análisis de embalsamamiento, este permite abordar cada cuerpo de manera correcta e individual, disminuyendo los errores del embalsamamiento;</span></b> por eso, es importante tener la orden de servicio o un informe con las especificaciones del proceso a desarrollar con el cuerpo sin vida y situarlos en los momentos de la desinfección, <b><span class="cac">preservación química y tanatoestética;</span></b> pero sabe <b>¿cuál es el protocolo para comenzar la preservación?</b>, por ello, revise el siguiente recurso educativo.
 
     .row.justify-content-center.mb-5
       .col-lg-1
@@ -129,7 +129,7 @@
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
       .tarjeta.tarjeta-white--color-red
         .p-4.ps-0.py-5
-          p.mb-0 Es importante que durante el servicio funerario, especialmente en el proceso de tanatopraxia, se establezca comunicación con el responsable o director que tomó el servicio para comunicar situaciones que hacen simple o compleja la adecuación del cadáver para el ritual final. A veces, por las condiciones del cuerpo no se puede realizar la intervención estética por los grados de descomposición de la materia orgánica.
+          p.mb-0 Es importante que durante <b><span class="cac">el servicio funerario,</span></b> especialmente en <b><span class="cp">el proceso de tanatopraxia,</span> se establezca comunicación con el responsable o director que tomó el servicio para comunicar situaciones que hacen simple o compleja la adecuación del cadáver para el ritual final.</b> A veces, por las condiciones del cuerpo no se puede realizar la intervención estética por los grados de descomposición de la materia orgánica.
 
 </template>
 

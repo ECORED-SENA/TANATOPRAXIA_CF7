@@ -8,7 +8,7 @@
         span 2
       h1 Descomposición en la tanatopraxia
 
-    p.mb-5 Como se ha mencionado, la muerte es la ruptura del equilibrio biológico y fisicoquímico de un cuerpo. Cuando el cuerpo yace inerte llegan reacciones que poco a poco conducen a su descomposición, que en el contexto de la tanatopraxia, hace referencia a un cambio biológico y fisicoquímico de las estructuras corporales. Este fenómeno también se le conoce como post-mortem; cabe mencionar que un cuerpo presenta síntomas de descomposición, la muerte es innegable. La descomposición como desestructuración corporal tiene dos perspectivas, estas son:
+    p.mb-5 Como se ha mencionado, <b>la muerte es la ruptura del equilibrio biológico y fisicoquímico de un cuerpo.</b> Cuando el cuerpo yace inerte llegan reacciones que poco a poco conducen a su descomposición, <b><span class="cp">que en el contexto de la tanatopraxia,</span> hace referencia a un cambio biológico y fisicoquímico de las estructuras corporales.</b> Este fenómeno también se le conoce como <em><b><span class="cac">post-mortem</span></b></em>; cabe mencionar que un cuerpo presenta síntomas de descomposición, la muerte es innegable. <b>La descomposición como desestructuración corporal tiene dos perspectivas,</b> estas son:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-secundario.p-5.text-center
@@ -179,9 +179,6 @@
             .col
               p Hace referencia a la influencia de la presión atmosférica y del medio circundante sobre el proceso de descomposición corporal. La temperatura, la humedad y la presión son determinantes en el proceso de descomposición.
           .row.align-items-center(numero="3" titulo="Cuerpos en agua")
-            .col-md-3
-              figure
-                img(src='@/assets/curso/t2/f12.svg', alt='imagen relacionada')
             .col
               p Cuando el proceso de descomposición sucede en el agua este es más lento, debido a las condiciones de temperatura y a la presión ejercida por el agua. 
               p Factores que gobiernan descomposición de cuerpos en el agua.
