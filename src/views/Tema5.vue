@@ -39,7 +39,8 @@
 
     p.mb-5 En la vida práctica de un tanatopractor se puede encontrar con dos tipos generales de la muerte vista externamente. Cuerpos con necropsia y sin ella. Cabe anotar que para cada cuerpo fallecido se debe hacer un análisis del caso, teniendo en cuenta patologías, signos de la muerte, entre otras que se han mencionado a lo largo de su experiencia de aprendizaje. Con la intención de que valore cada caso explore los cuerpos humanos. 
 
-    .hScroll(style='cursor:e-resize;border: solid 1px black;')
+    VueCompareImage(:leftImage="require('@/assets/curso/t5/sinnecropsia.svg')", :rightImage="require('@/assets/curso/t5/connecropsia.svg')")
+    //.hScroll(style='cursor:e-resize;border: solid 1px black;')
       .col-12.primer
         .row.border.p-5
           .col-lg-4
@@ -572,13 +573,14 @@
           p.mb-0 Además de los casos mencionados, en el proceso de embalsamamiento puede encontrar algunos obstáculos que influyen en las técnicas de tanatopraxia.  Estas situaciones pueden estar asociadas a la edad del cuerpo fallecido, efecto de los medicamentos, descomposición del cadáver y patologías.
 
 </template>
-
 <script>
+import VueCompareImage from 'vue-compare-image'
 export default {
   name: 'Tema5',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {
+    VueCompareImage,
+  },
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

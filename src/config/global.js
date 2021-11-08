@@ -61,7 +61,7 @@ export default {
         titulo: 'Naturaleza y propósito del embalsamamiento',
         desarrolloContenidos: true,
         subMenu: [
-          {
+          /*{
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Higienización integral',
@@ -78,7 +78,7 @@ export default {
             numero: '3.3',
             titulo: 'Propósito de la preservación química',
             hash: 't_3_3',
-          },
+          },*/
         ],
       },
       {

@@ -116,7 +116,7 @@
     #t_2_1.titulo-segundo
       h2 2.1 Tipos de descomposición
 
-    p.mb-5 <b>Entre el periodo del fallecimiento y el embalsamamiento</b> la condición del cuerpo y la composición de este sigue cambiando y sí hay influencia interna, <b><span class="cp">actividad química o externa</span></b>, por la naturaleza se presentarán mayores cambios en la descomposición de los cuerpos. A continuación, se presentan los <b>diferentes tipos de descomposición según las condiciones presentadas por el cadáver al momento del fallecimiento y según el medio que lo rodea.</b>
+    p.mb-5 <b>Entre el período del fallecimiento y el embalsamamiento</b> la condición del cuerpo y la composición de este sigue cambiando y sí hay influencia interna, <b><span class="cp">actividad química o externa</span></b>, por la naturaleza se presentarán mayores cambios en la descomposición de los cuerpos. A continuación, se presentan los <b>diferentes tipos de descomposición según las condiciones presentadas por el cadáver al momento del fallecimiento y según el medio que lo rodea.</b>
 
     .row.mb-5
       .col-lg-7
@@ -267,9 +267,9 @@
 
     Separador
     #t_2_3.titulo-segundo
-      h2 2.3 Periodos y signos de la descomposición
+      h2 2.3 Períodos y signos de la descomposición
 
-    p.mb-5 El <b>proceso de descomposición de un cuerpo sin vida</b> pasa por varios estados: invisibles, involucra una <b><span class="cp">descomposición microscópica</span></b> porque al terminarse la reserva de oxígeno presente al momento de la muerte e iniciados <b>los procesos autolíticos estas células mueren y dan paso a los nuevos compuestos químicos, producto de la descomposición que al cabo de unas horas se hará visible y con esta se iniciara la segunda etapa de descomposición</b> donde se hace  físicamente visible la destrucción de los tejidos. Para identificar lo que sucede en el cuerpo según su periodo observe el siguiente recurso educativo.
+    p.mb-5 El <b>proceso de descomposición de un cuerpo sin vida</b> pasa por varios estados: invisibles, involucra una <b><span class="cp">descomposición microscópica</span></b> porque al terminarse la reserva de oxígeno presente al momento de la muerte e iniciados <b>los procesos autolíticos estas células mueren y dan paso a los nuevos compuestos químicos, producto de la descomposición que al cabo de unas horas se hará visible y con esta se iniciara la segunda etapa de descomposición</b> donde se hace  físicamente visible la destrucción de los tejidos. Para identificar lo que sucede en el cuerpo según su período observe el siguiente recurso educativo.
 
     figure.mb-5
       .video

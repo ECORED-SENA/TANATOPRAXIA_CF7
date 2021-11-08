@@ -183,10 +183,10 @@
             .col-lg-8
               p Son productos químicos que intentan destruir los microorganismos patógenos. Se incorporan a los líquidos arteriales, de cavidad, de co-inyección y desinfectantes superficiales. En este grupo se encuentran dos compuestos principales:
               .row.align-items-center
-                .col-lg-6.tarjeta.tarjeta--blanca
-                  h6.text-center Fenol.
-                .col-lg-6.tarjeta.tarjeta--blanca
-                  h6.text-center Amonio cuaternario.
+                .col.tarjeta.tarjeta--blanca.bb.bb--cp.mx-2.p-4
+                  h6.text-center.mb-0 Fenol
+                .col.tarjeta.tarjeta--blanca.bb.bb--cp.mx-2.p-4
+                  h6.text-center.mb-0 Amonio cuaternario
           .row.align-items-center(numero='10' titulo='Preservantes')
             .col-lg-4
               figure(data-aos="fade-left")
@@ -206,10 +206,10 @@
             .col-lg-8
               p Son los líquidos que facilitan el movimiento de los químicos en el sistema circulatorio y los cuales son agregados a las soluciones arteriales, estos son: 
               .row.align-items-center
-                .col-lg-6.tarjeta.tarjeta--blanca
-                  h6.text-center Alcohol.
-                .col-lg-6.tarjeta.tarjeta--blanca
-                  h6.text-center Agua.
+                .col.tarjeta.tarjeta--blanca.bb.bb--cac.p-4.mx-2
+                  h6.text-center.mb-0 Alcohol
+                .col.tarjeta.tarjeta--blanca.bb.bb--cac.p-4.mx-2
+                  h6.text-center.mb-0 Agua
             .col-lg-4
               figure(data-aos="fade-left")
                 img(src='@/assets/curso/t4/f16.svg' alt='imagen relacionada')
@@ -270,13 +270,13 @@
             ul.lista-ul.ms-5
               li 
                 i.fas.fa-angle-right.cac
-                | Químicos de índice bajo o no endurecedores (entre 5 y 15). Son apropiados para la preservación de niños, bebés y cuerpos con ictericia o caquéxicos. 
+                p.mb-0 <b>Químicos de índice bajo o no endurecedores (entre 5 y 15).</b> Son apropiados para la preservación de niños, bebés y cuerpos con ictericia o caquéxicos. 
               li 
                 i.fas.fa-angle-right.cac
-                | Químicos de índice medio (entre 16 y 25). Se usa para preservaciones convencionales. Estos proporcionan firmeza moderada a los tejidos.
+                p.mb-0 <b>Químicos de índice medio (entre 16 y 25).</b> Se usa para preservaciones convencionales. Estos proporcionan firmeza moderada a los tejidos.
               li 
                 i.fas.fa-angle-right.cac
-                | Químicos de índice alto o endurecedores (entre 26 y 50). Estos dan mayor firmeza a los tejidos y son los apropiados para casos difíciles o que necesiten condiciones especiales de preservación. 
+                p.mb-0 <b>Químicos de índice alto o endurecedores (entre 26 y 50).</b> Estos dan mayor firmeza a los tejidos y son los apropiados para casos difíciles o que necesiten condiciones especiales de preservación. 
           .col-lg-4
             figure
               img(src='@/assets/curso/t4/f22.svg', alt='imagen relacionada')
@@ -318,7 +318,8 @@
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
       .tarjeta.tarjeta-white--color-red
         .p-4.ps-0.py-5
-          p.mb-0 Es importante mencionar que los químicos también se pueden clasificar por su utilización.  Estos químicos o fluidos arteriales preservantes son ligeramente alcalinos con pH entre 7,2 y 7,4, que se utilizan única y exclusivamente para ser inyectados arterialmente y siempre se deben inyectar mezclados con agua.
+          p Es importante mencionar que los químicos también se pueden clasificar por su utilización.  Estos químicos o fluidos arteriales preservantes son ligeramente alcalinos con pH entre 7,2 y 7,4, que se utilizan única y exclusivamente para ser inyectados arterialmente y siempre se deben inyectar mezclados con agua.
+          p.mb-0 Hasta aquí, se ha hecho una presentación de las propiedades de los químicos utilizados durante el embalsamamiento. A continuación, se listan algunas empresas proveedoras de químicos arteriales tanto nacionales como internacionales, para que pueda identificar su razón de ser y/o catálogo de productos. 
 
     .row.justify-content-center.mb-5
       .col.mmw.fcb.h500px.p-0.mx-2
@@ -355,7 +356,7 @@
           h3 The Dodge Company
           p Es una empresa familiar constituida en el año 1893 en Estados Unidos. Son los mayores proveedores y fabricantes de productos químicos y cosméticos para embalsamamiento.
           .mx-auto
-            a.boton.fcab(href='www.dodgeco.com' target='_blank')
+            a.boton.fcab(href='https://www.dodgeco.com' target='_blank')
               h6.mb-0.text-center Ver más
       .col.mmw.fcb.h500px.p-0.mx-2
         figure
@@ -364,7 +365,7 @@
           h3 U.S. Chemical
           p Son una compañía de suplementos para casas funerarias, cementerios y crematorios.
           .mx-auto
-            a.boton.fcab(href='www.hepburnsuperior.com' target='_blank')
+            a.boton.fcab(href='https://www.hepburnsuperior.com' target='_blank')
               h6.mb-0.text-center Ver más
 
     p.mb-5 Los químicos para el embalsamamiento se pueden clasificar en cavitales (cavidad), especiales y blanqueadores. Los primeros son diseñados exclusivamente con conservantes astringentes de acción rápida y normalmente con una alta concentración de formaldehído; estos se complementan con agentes germicidas y coagulantes porque su propósito es el tratamiento de las vísceras corporales. Los segundos son especialmente diseñados para complementar, equilibrar y controlar la acción de los químicos arteriales; estos pueden ser usados antes o durante la inyección de la solución arterial y, los terceros ayudan a remover coloraciones y manchas temporales, para mayor información observe el siguiente recurso educativo.
