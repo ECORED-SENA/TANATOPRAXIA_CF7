@@ -60,11 +60,14 @@
 
     .tarjeta-avatar-b.mb-4
       .tarjeta-avatar-b__img(data-aos="fade-right")
-        img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
+        img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:135px;')
       .tarjeta.tarjeta-white--color-red
-        .p-4.ps-0.py-5
+        .p-5
           p.mb-0
-            b Recuerde que el proceso de embalsamamiento que se desarrolló en tres momentos: desinfección, preservación química y tanatoestética, debe cumplir con el uso de elementos de bioseguridad para protegerse de uno o varios riesgos.
+            b.cp Recuerde que el proceso de embalsamamiento 
+            b que se desarrolló en tres momentos: desinfección, preservación química y tanatoestética, debe cumplir con el 
+            b.cac uso de elementos de bioseguridad 
+            b para protegerse de uno o varios riesgos.
 
 </template>
 

@@ -34,10 +34,11 @@
         h2.cst Tanatoestética
         p.cst Si bien desde la desinfección y preservación se están generando las condiciones para una intervención estética del cadáver, se puede afirmar que este último momento se caracteriza por la adecuación física del fallecido orientada a una presentación de una imagen natural hacia sus deudos. 
 
-    .row.align-items-center.bg7.afterCP1.p-5.mb-5
+    .row.align-items-center.bg7.afterCP1.p-5.mb-5.sm-fg
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t3/bg7f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-7
         p.bordeLnegro.mb-0 Organizaciones como la <b>OMS (Organización Mundial de la Salud)</b> han identificado como <b><span class="cac">potencial foco de infección los cadáveres</span></b>, por lo tanto, es necesario recalcar <b><span class="cp">la importancia de los protocolos y elementos de protección personal</span></b> de quienes están en contacto directo con el cadáver.
       .col
@@ -54,7 +55,7 @@
       .col-lg-9
         p Una vez culminada la <b>inyección arterial se procede a la preservación de los órganos toraco abdominales pélvicos en el que se extraen líquidos, sólidos, semisólidos y gases presentes en esa zona.</b> Esta acción comienza con la <b><span class="cp">aplicación del líquido preservante especializado para cavidad,</span></b> este se debe dejar actuar durante un tiempo que cada cuerpo lo requiera. 
         p Cabe mencionar que <b></b> Si bien este es el proceso descrito de forma general, se invita a continuar su lectura para la apropiación de información que le ayude al desarrollo de las actividades de aprendizaje. 
-      .col-lg-3
+      .col-lg-3.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t3/f5.png', alt='Proceso natural de la muerte, cuerpo humano')
 
@@ -128,7 +129,7 @@
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
       .tarjeta.tarjeta-white--color-red
-        .p-4.ps-0.py-5
+        .p-5
           p.mb-0 Es importante que durante <b><span class="cac">el servicio funerario,</span></b> especialmente en <b><span class="cp">el proceso de tanatopraxia,</span> se establezca comunicación con el responsable o director que tomó el servicio para comunicar situaciones que hacen simple o compleja la adecuación del cadáver para el ritual final.</b> A veces, por las condiciones del cuerpo no se puede realizar la intervención estética por los grados de descomposición de la materia orgánica.
 
 </template>

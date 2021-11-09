@@ -2,8 +2,8 @@ export default {
   global: {
     componenteFormativo: 'Protocolos para el embalsamamiento',
     descripcionCurso:
-      'El presente componente de formación surge de la necesidad de realizar el embalsamamiento del cadáver, de acuerdo con los protocolos establecidos. Una práctica que involucra la identificación de químicos que contribuyan a retardar la descomposición del cuerpo para que se realice su ritual de despedida.  La preservación química que identificará hace parte del segundo momento del proceso de embalsamamiento, ya que en primer lugar hace referencia a la desinfección del cadáver y el tercero a la tanatoestética. ¡Bienvenido!',
-    imagenBannerPrincipal: require('@/assets/curso/banner-img.png'),
+      'El presente componente de formación surge de la necesidad de realizar el embalsamamiento del cadáver, de acuerdo con los protocolos establecidos. Una práctica que involucra la identificación de químicos que contribuyan a retardar la descomposición del cuerpo para que se realice su ritual de despedida.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-img.svg'),
     fondoBannerPrincipal: require('@/assets/curso/banner-bg.png'),
   },
   menuPrincipal: {

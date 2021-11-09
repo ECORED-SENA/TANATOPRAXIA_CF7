@@ -15,25 +15,36 @@
             img(src='@/assets/curso/t5/f1.svg' alt='imagen relacionada')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.mb-0 La preservación química tiene diferentes formas de realizarse, una de ellas se realiza vía vascular mediante los vasos sanguíneos principales. La idea es que la solución preservante ingrese por las arterias y recorra todo el sistema vascular para poder llegar hasta las células. Los fluidos preservantes que ingresan al cuerpo del fallecido se encargan de evacuar la sangre presente en el sistema vascular por medio del drenaje de las venas. En este sentido, en la presente sección reconocerá elementos importantes para llevar a cabo la preservación química arterial y las formas complementarias de hacer refuerzos en zonas donde no pueda llegar la solución del químico vía vascular. 
+            p.mb-0 
+              b La preservación química tiene diferentes formas de realizarse, una de ellas se realiza vía vascular mediante los vasos sanguíneos principales. 
+              | La idea es que 
+              b.cp la solución preservante ingrese por las arterias y recorra todo el sistema vascular para poder llegar hasta las células. 
+              b.cac Los fluidos preservantes 
+              | que ingresan al cuerpo del fallecido se encargan de evacuar la sangre presente en el sistema vascular por medio del drenaje de las venas. En este sentido, en la presente sección reconocerá elementos importantes para llevar a cabo 
+              b la preservación química arterial y las formas complementarias de hacer refuerzos en zonas donde no pueda llegar la solución del químico vía vascular. 
 
     #t_5_1.titulo-segundo
       h2 5.1 Guías anatómicas para ubicación de arterias y venas
 
     .row.mb-5
       .col-lg-8
-        p Para la preservación del cadáver es requerimiento que el tanatopractor esté familiarizado con las guías anatómicas del cuerpo humano y con características básicas musculoesqueléticas, posición de los órganos y vasos sanguíneos principales para saber en qué parte exactamente se deben realizar las incisiones o cortes en la exploración de arterias y venas o por lo menos zonas adyacentes al lugar de la exploración vascular.
+        p Para la preservación del cadáver 
+        b es requerimiento que el tanatopractor esté familiarizado con las guías anatómicas del cuerpo humano y con características básicas musculoesqueléticas, 
+        | posición de los órganos y vasos sanguíneos principales 
+        b.cp para saber en qué parte exactamente se deben realizar las incisiones o cortes en la exploración de arterias y venas o 
+        | por lo menos zonas adyacentes al lugar de la exploración vascular.
         .cajon.color-secundario.p-4
           p.mb-0 Se parte de la idea de que el cadáver antes de iniciar la acomodación de facciones y de posicionamiento está en posición acostada, con el rostro hacia arriba, con las manos a los lados del cuerpo y los pies juntos; lo que se hace con las consideraciones anatómicas conocidas es hacer guías visualizadas en la superficie de elementos cercanos o adyacentes en relación con las guías reales internas.
-      .col-lg-4 
+      .col-lg-4.order-first.order-lg-last
         figure(data-aos="fade-left")
           img(src='@/assets/curso/t5/f2.png' alt='imagen relacionada')
 
-    .row.align-items-center.bg8.afterCP1.p-5.mb-5
+    .row.align-items-center.bg8.afterCP1.p-5.mb-5.sm-fg
       .col-lg-4
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t5/bg8f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-6
         p.bordeLnegro.mb-0 Las guías anatómicas permiten tener un reconocimiento de las áreas superficiales del cuerpo para poder reconocer las guías vasculares cuando se realiza la exploración del cadáver. En el siguiente recurso educativo percibirá y reconocerá la estructura interna que interviene en la preservación química como tanatopractor.
 
@@ -80,7 +91,7 @@
       .tarjeta-avatar-b.mb-4
         .tarjeta-avatar-b__img(data-aos="fade-right")
           img.mx-auto(src='@/assets/curso/t5/f5.svg' alt='Señal de atención' style='width:155px;')
-        .tarjeta.tarjeta-white--color-black
+        .tarjeta.tarjeta-white.tarjeta-white--color-black
           .p-4.ps-0.py-5
             h3 Arteria carótida común y vena yugular interna
             P Se ubica en el cuello, para ubicarlas dibuje dos líneas imaginarias; una entre la clavícula y la punta de la mandíbula y dos entre el lóbulo de la oreja y la clavícula, a estos tres puntos (punta de la mandíbula, clavícula, lóbulo de la oreja) se les conoce como triángulo anterior, la arteria carótida y la vena yugular están debajo del músculo esternocleidomastoideo que va entre el lóbulo de la oreja y la clavícula; en realidad el tejido es muy fino y delgado.
@@ -88,14 +99,14 @@
       .tarjeta-avatar-b.mb-4
         .tarjeta-avatar-b__img(data-aos="fade-right")
           img.mx-auto(src='@/assets/curso/t5/f6.svg' alt='Señal de atención' style='width:155px;')
-        .tarjeta.tarjeta-white--color-black
+        .tarjeta.tarjeta-white.tarjeta-white--color-black
           .p-4.ps-0.py-5
             h3 Arteria axilar y vena axilar
             p.mb-0 Está ubicada paralela a lo largo del brazo extendido. Allí es donde se realiza la incisión.  La arteria axilar es una continuación de la arteria subclavia. Cabe mencionar que la vena está paralela a la arteria. 
       .tarjeta-avatar-b.mb-4
         .tarjeta-avatar-b__img(data-aos="fade-right")
           img.mx-auto(src='@/assets/curso/t5/f7.svg' alt='Señal de atención' style='width:155px;')
-        .tarjeta.tarjeta-white--color-black
+        .tarjeta.tarjeta-white.tarjeta-white--color-black
           .p-4.ps-0.py-5
             h3 Arteria braquial y vena basílica
             p.mb-0 Se ubica desde el borde interno del músculo bíceps braquial, la vena que está en paralelo es la vena basílica.
@@ -106,10 +117,20 @@
 
     .row.mb-5
       .col-lg-8
-        p Cuando se habla de guías vasculares en el contexto de la tanatopraxia se hace  referencia a los vasos sanguíneos del cuerpo del fallecido que se usarán para la preservación química. Estos hacen parte del cuerpo y necesitan de pequeños cortes para inyectar la solución química cuando se hace el embalsamamiento por muerte natural, para ello, debe identificarlos cuando realice la exploración de las guías vasculares.
+        p Cuando se habla de 
+        b guías vasculares en el contexto de la tanatopraxia se hace  referencia a los vasos sanguíneos del cuerpo del fallecido que se usarán para la preservación química. 
+        | Estos hacen parte del cuerpo y 
+        b.cp necesitan de pequeños cortes para inyectar la solución química cuando se hace el embalsamamiento por muerte natural, 
+        | para ello, debe identificarlos cuando realice la 
+        b.cac exploración de las guías vasculares.
         .cajon.color-secundario.p-4
-          p.mb-0 Cabe mencionar que las guías al estar dentro del sistema circulatorio permiten distribuir la sangre por todos los tejidos del organismo cuando el cuerpo humano tiene vida. En tanatopraxia lo que se distribuye es la solución del químico preservante, específicamente a través de todas las ramificaciones de vasos sanguíneos (arterias, venas, capilares, vénulas, etc.). Ahora bien, cuando se realiza el procedimiento de manera correcta, debe enfocarse en las arterias con sus ramificaciones y las venas. Para identificar las características de estas se invita a revisar el siguiente recurso educativo.
-      .col-lg-4
+          p.mb-0 Cabe mencionar que 
+            b las guías al estar dentro del sistema circulatorio permiten distribuir la sangre por todos los tejidos del organismo cuando el cuerpo humano tiene vida. 
+            | En 
+            b.cac tanatopraxia 
+            b.cp lo que se distribuye es la solución del químico preservante, específicamente a través de todas las ramificaciones de vasos sanguíneos (arterias, venas, capilares, vénulas, etc.). 
+            | Ahora bien, cuando se realiza el procedimiento de manera correcta, debe enfocarse en las arterias con sus ramificaciones y las venas. Para identificar las características de estas se invita a revisar el siguiente recurso educativo.
+      .col-lg-4.order-first-order-lg-last
         figure(data-aos="fade-left")
           img(src='@/assets/curso/t5/f8.png' alt='imagen relacionada')
 
@@ -126,13 +147,19 @@
             span Descargar
             i.fas.fa-file-download
 
-    p.mb-5 Reconocer algunos vasos sanguíneos es necesario porque  los tomará para hacer la inyección del líquido preservante y drenar las sustancias tanto del cuerpo humano como de los preservantes. Continúe con su lectura para seguir entendiendo cómo se hace la inyección y el drenaje en la tanatopraxia.
+    p.mb-5 
+      b Reconocer algunos vasos sanguíneos es necesario porque  los tomará para hacer la inyección del líquido preservante y drenar las sustancias tanto del cuerpo humano como de los preservantes. 
+      | Continúe con su lectura para seguir entendiendo 
+      b.cp cómo se hace la inyección y el drenaje en la tanatopraxia.
 
     Separador
     #t_5_3.titulo-segundo
       h2 5.3 Centro de la circulación en tanatopraxia 
 
-    p.mb-5 El centro de la circulación en una persona viva es el corazón, este es el órgano encargado de bombear la sangre a todo el cuerpo. Cuando una persona fallece el corazón deja de latir cuando cierra las válvulas, esto hace que la distribución artificial se centre en otra zona. El corazón en la parte superior tiene una ramificación llamada cayado aórtico, que es donde se bifurcan la aorta ascendente y el cayado o arco de la aorta.
+    p.mb-5 
+      b El centro de la circulación en una persona viva es el corazón, 
+      | este es el órgano encargado de bombear la sangre a todo el cuerpo. Cuando una persona fallece el corazón deja de latir cuando cierra las válvulas, esto hace que la distribución artificial se centre en otra zona. 
+      b.cp El corazón en la parte superior tiene una ramificación llamada cayado aórtico, que es donde se bifurcan la aorta ascendente y el cayado o arco de la aorta.
 
     .contenedor.mb-5
       .row
@@ -146,15 +173,21 @@
       .row
         .col.m-0
           figure
-            img(src='@/assets/curso/t5/f11.png', alt='imagen relacionada').mb-4
+            img(src='@/assets/curso/t5/f11.png', alt='imagen relacionada', width="280px").mb-4.mx-auto
         .col-lg-7.m-0.fnegro.contenedorNegro
           .p-5
             p.texto-blanco <em>Con base al cayado aórtico es que se debe pensar inicialmente para realizar la preservación química arterial, por ejemplo, la arteria carótida que se ubica en el cuello y que es una arteria principal, de muy buen diámetro y cerca al corazón, se debe tener siempre como punto de partida para la inyección, la cual se hace en dirección al corazón para dirigir el fluido preservante en relación al resto del cuerpo. Dependiendo de la extremidad que se inyecte como, por ejemplo, la arteria femoral o la arteria humeral será necesario inyectar en dirección contraria para que las zonas distantes al punto de inyección sean preservadas.</em>
 
     .row.align-items-center.mb-5
       .col-lg-8
-        p La ventaja de inyectar por una arteria cerca al cayado aórtico es que permite que las válvulas del corazón se llenen de solución y así se pueda generar una mejor distribución de la solución preservante. 
-        p Comprendida la información anterior, es importante identificar la información relacionada con las arterias y venas principales. Es de vital importancia escoger el punto de inyección y drenaje para obtener óptimos resultados. En teoría, cualquier punto de inyección y drenaje sirve para la preservación vascular, pero se recomienda básicamente dos factores a tener en cuenta:
+        p 
+          b La ventaja de inyectar por una arteria cerca al cayado aórtico es que permite que las válvulas del corazón se llenen de solución y así se pueda generar una mejor distribución de la solución preservante. 
+        p Comprendida la información anterior, 
+          b.cp es importante identificar la información relacionada con las arterias y venas principales. 
+          b Es de 
+          b.cac vital importancia 
+          b escoger el punto de inyección y drenaje para obtener óptimos resultados. En teoría, cualquier punto de inyección y drenaje sirve para la preservación vascular, 
+          | pero se recomienda básicamente dos factores a tener en cuenta:
         .col-lg-9.mx-auto
           ol.lista-ol--cuadro.lista-ol--separador
             li 
@@ -165,11 +198,15 @@
               .lista-ol--cuadro__vineta.fcp
                 span 2
               | Diámetro de la arteria para ingresar la cánula con la que inyectará y drenará. Realice una incisión, ni muy grande, ni muy pequeña; se recomienda unos 2 o 3 cm y recuerde que la cánula dentro de la arteria va en dirección al corazón. Inserte la pinza para drenaje también en dirección al corazón e inyecte hacia al lado contrario (sobre todo en extremidades de los miembros superior e inferior).
-      .col-lg-4
+      .col-lg-4.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t5/f12.png', alt='Punto de inyección y drenaje')
 
-    p.mb-5 Como principio básico en la tanatopraxia es que los mejores puntos de inyección y drenaje son los que se encuentran más cercanos al centro de la circulación.  El punto que escoja para inyección procure que sea el mismo para drenaje, salvo en casos especiales como en los cuerpos con necropsia, en los que se necesita puntos de inyección múltiples. 
+    p.mb-5 Como principio básico en 
+      b.cac la tanatopraxia 
+      | es que 
+      b los mejores puntos de inyección y drenaje son los que se encuentran más cercanos al centro de la circulación. 
+      | El punto que escoja para inyección procure que sea el mismo para drenaje, salvo en casos especiales como en los cuerpos con necropsia, en los que se necesita puntos de inyección múltiples. 
 
     .contenedor.fnegro.mb-5
       h2.texto-blanco.text-center.mb-0 Otra de las razones para escoger el punto de inyección y drenaje es la profundidad en la que se encuentren las guías vasculares a usar, lo que determina además la flexibilidad que puedan tener. Lea a continuación algunos criterios a considerar en la selección de: 
@@ -180,15 +217,15 @@
           .col-6
             figure
               img(src='@/assets/curso/t5/f13.svg', alt='imagen relacionada')
-        h2.text-center Arterias 
-        p Tamaño y diámetro, profundidad y facilidad para la localización, flexibilidad de la arteria, cercanía al cayado aórtico.
+        h2.text-center.cst Arterias 
+        p.text-center.cst Tamaño y diámetro, profundidad y facilidad para la localización, flexibilidad de la arteria, cercanía al cayado aórtico.
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/t5/f14.svg', alt='imagen relacionada')
-        h2.text-center Venas
-        p Tamaño y diámetro, profundidad y facilidad para la localización, cercanía a la aurícula derecha del corazón, decoloraciones de sangre en rostro y cuello.
+        h2.text-center.cst Venas
+        p.text-center.cst Tamaño y diámetro, profundidad y facilidad para la localización, cercanía a la aurícula derecha del corazón, decoloraciones de sangre en rostro y cuello.
 
     p.mb-4 Para realizar la inyección y drenaje de los líquidos preservantes debe considerar la diferencia que existe en un cuerpo con necropsia, ya que sus vasos sanguíneos se modifican y por ende se debe cambiar el método de preservación. En un cuerpo que ha muerto naturalmente se realiza la preservación desde un solo punto de inyección y drenaje; el punto más frecuente es la arteria carótida derecha y la vena yugular o la arteria femoral derecha y la vena femoral derecha, las cuales permiten usar mayor volumen de líquido preservante. 
     .row.mb-5
@@ -369,11 +406,12 @@
     #t_5_5.titulo-segundo
       h2 5.5 Movimiento de los fluidos
 
-    .row.align-items-center.bg9.afterCP1.p-5.mb-5
+    .row.align-items-center.bg9.afterCP1.p-5.mb-5.sm-fg
       .col-lg-4
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t5/bg9f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-6
         p.bordeLnegro.mb-0 Cuando se habla de movimientos de los fluidos en un cuerpo sin vida se hace referencia al sistema circulatorio, el cual es dinámico. Se compone de vías principales y vías secundarias que crean ramificaciones que se dividen en múltiples veces y que llegan a todas las partes del cuerpo. Estas ramificaciones se diferencian entre grosores y diámetros de las arterias y venas.
 
@@ -398,7 +436,7 @@
               span 4
             | Drenaje de los líquidos presentes en las guías vasculares como sangre y solución preservante.
         p El movimiento de los fluidos dentro del sistema circulatorio puede presentar diferentes presiones por la naturaleza misma del recorrido, todo el sistema vascular presenta diferentes calibres y diámetros en toda la extensión del cuerpo, además los líquidos preservantes tienen densidades diferentes a la sangre que circula en vida por las guías vasculares; luego de morir la persona, la sangre puede estar más líquida o más espesa y/o con presencia de coágulos en diferentes zonas del cuerpo. Una consideración importante que es todo el sistema circulatorio (arterias, venas, arteriolas, capilares, vénulas, etc.) tienen tamaños y diámetros diferentes, lo que hace que el movimiento de los fluidos no sea uniforme, pues los líquidos pasan por canales más estrechos o amplios generando una fuerza diferente.
-      .col-lg-5
+      .col-lg-5.order-last.order-lg-first
         figure
           img(src='@/assets/curso/t5/f32.png', alt='imagen relacionada')
 
@@ -439,19 +477,19 @@
     .tarjeta-avatar-b.mb-4
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/t5/f38.svg' alt='Señal de atención' style='width:155px;')
-      .tarjeta.tarjeta-white--color-red
+      .tarjeta.tarjeta-white.tarjeta-white--color-red
         .p-4.ps-0.py-5
           p.mb-0 Filtración a presión, en este proceso los solutos y solventes de los líquidos arteriales pasan al líquido intersticial y los demás ingredientes de los líquidos (humectantes y tensoactivos) reducen la tensión superficial, logrando así que la solución arterial sea más húmeda y pueda pasar más fácilmente por las membranas de los capilares.
     .tarjeta-avatar-b.mb-4
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/t5/f38.svg' alt='Señal de atención' style='width:155px;')
-      .tarjeta.tarjeta-white--color-red
+      .tarjeta.tarjeta-white.tarjeta-white--color-red
         .p-4.ps-0.py-5
           p.mb-0 Osmosis, este proceso implica el movimiento del solvente (agua) desde una solución diluida a una más concentrada, a través de una membrana semipermeable como las paredes de los capilares.
     .tarjeta-avatar-b.mb-4
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/t5/f38.svg' alt='Señal de atención' style='width:155px;')
-      .tarjeta.tarjeta-white--color-red
+      .tarjeta.tarjeta-white.tarjeta-white--color-red
         .p-4.ps-0.py-5
           p.mb-0 Diálisis, es la difusión de los solutos disueltos en una solución que atraviesa una membrana semipermeable.
 
@@ -526,7 +564,7 @@
     .row.align-items-center.mb-4
       .col-lg-8
         p El cuerpo con los cambios que sufre en la muerte genera resistencia que afecta la correcta movilización y distribución de la solución arterial. Existen dos tipos de resistencias en el cuerpo dentro de las guías vasculares: resistencia intravascular y resistencia extravascular, a cualquiera de estas resistencias se le conoce como cortocircuito vascular. Normalmente en la inyección de la solución preservante toma diferentes vías vasculares para irrigar todo el cuerpo, los líquidos tienden a tomar las vías de menor resistencia que, por lo general son las que llevan a la piel, pero se  necesita de una pequeña cantidad de resistencia para que el líquido penetre bien en los capilares o los tejidos más profundos, pues si no existiere resistencia la solución pasaría derecho por las guías vasculares como si se tratase de un lavado y sin remover o empujar coágulos de sangre.
-      .col-lg-4
+      .col-lg-4.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t5/f42.png', alt='Cambios que sufre el cadáver')
 
@@ -553,14 +591,14 @@
           .tarjeta-avatar-b.mb-4
             .tarjeta-avatar-b__img(data-aos="fade-right")
               img.mx-auto(src='@/assets/curso/t5/f45.svg' alt='Señal de atención' style='width:100px;')
-            .tarjeta.tarjeta-white--color-red
+            .tarjeta.tarjeta-white.tarjeta-white--color-red
               .p-4.ps-0.py-5
                 h4 Rigor mortis
                 p.mb-0 Se recomienda antes de iniciar el proceso de preservación hacer masajes para romper la rigidez cadavérica. Cuando se inyecta y se drena el líquido preservante se recomienda hacer masajes con crema humectante o jabón líquido, estimulando las guías vasculares.
           .tarjeta-avatar-b.mb-4
             .tarjeta-avatar-b__img(data-aos="fade-right")
               img.mx-auto(src='@/assets/curso/t5/f45.svg' alt='Señal de atención' style='width:100px;')
-            .tarjeta.tarjeta-white--color-red
+            .tarjeta.tarjeta-white.tarjeta-white--color-red
               .p-4.ps-0.py-5
                 h4 Gas en cavidades
                 p.mb-0 Cuando el cuerpo ha iniciado el proceso de descomposición en la cavidad abdominal se crea una presión extra que oprime la arteria aorta descendente y la vena cava. Para ello, es recomendado hacer una pequeña incisión con un bisturí en el área abdominal para liberar los gases.
@@ -568,8 +606,8 @@
     .tarjeta-avatar-b.mb-4
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
-      .tarjeta.tarjeta-white--color-red
-        .p-4.ps-0.py-5
+      .tarjeta.tarjeta-white.tarjeta-white--color-red
+        .p-5
           p.mb-0 Además de los casos mencionados, en el proceso de embalsamamiento puede encontrar algunos obstáculos que influyen en las técnicas de tanatopraxia.  Estas situaciones pueden estar asociadas a la edad del cuerpo fallecido, efecto de los medicamentos, descomposición del cadáver y patologías.
 
 </template>

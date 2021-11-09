@@ -9,10 +9,10 @@
       h1 Tratamiento de cavidad
 
     .row.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-5
         figure(data-aos='fade-right')
           img(src='@/assets/curso/t6/f1.png' alt='Retardar el proceso de descomposición')
-      .col-lg-8
+      .col-lg-7
         p Este es uno de los métodos más antiguos de embalsamamiento, desde los antiguos egipcios hasta el período moderno se realiza con la intención de retardar los procesos de descomposición, porque se considera muy difícil realizar un proceso de embalsamamiento satisfactorio sin tratar las vísceras. Las primeras técnicas de tratamiento de cavidad implicaban la evisceración de la cavidad toracoabdominal y del cerebro en la cavidad craneal; si estas no eran tratadas los materiales purulentos, los fluidos y la sangre seguían descomponiéndose y creando un medio adecuado para la reproducción de bacterias, fuente de olores y gases. Gracias a los avances en tanatopraxia y con la introducción del uso del trocar, este proceso dejó sus etapas iniciales para transformarse en un proceso de tratamiento de vísceras directamente, sin necesidad de extraerlas, pero con el mismo propósito. 
 
     .cajon.color-secundario.p-4.mb-4
@@ -74,7 +74,7 @@
       .col-lg-8
         p Idealmente el fluido usado no debe de producir coagulación de superficie, ya que provoca que las partes más alejadas de la cavidad puedan no recibir solución preservante, pero estos líquidos sí deben producir la máxima desinfección y preservación con una mínima cantidad de líquido usado.   Se considera que la cantidad necesaria de fluido para realizar el proceso de desinfección estará determinada por la masa de los tejidos que se deben de tratar, teniendo en cuenta el peso y el tamaño del cadáver, por ejemplo, para un cuerpo que pesó aproximadamente 65 kilogramos se recomienda usar 455 ml de fluido preservante de cavidad, esta medida puede variar dependiendo de las condiciones anteriormente descritas y de las condiciones de fallecimiento. Los cadáveres de contextura más grande necesitarán más cantidad de líquido de cavidad, en cambio los más pequeños necesitan menor cantidad de líquido preservante.
         p El procedimiento descrito anteriormente se realiza comúnmente haciendo uso de un inyector por gravedad que se conecta a una manguera y esta, directamente a la botella del líquido preservante para cavidad, mientras más alta esté la botella más rápido fluye el líquido hacia la cavidad. El inyector posee una abertura pequeña al costado que permite el flujo de aire hacia la botella, al colocar el dedo sobre esta abertura el tanatopractor detiene el flujo. Esta técnica puede ser usada para cambiar de posición el trocar sin ocasionar un derramamiento del fluido para cavidad. Al terminar este procedimiento se debe de enjuagar el trocar y el sistema de inyección por gravedad con agua fría y finalizado este enjuague, realizar la desinfección del trocar.
-      .col-lg-4
+      .col-lg-4.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t6/f10.png', alt='Inyección de fluido preservante')
     .row.mb-5
@@ -85,10 +85,11 @@
         p Una práctica común es realizar varias pasadas con el trocar por la cavidad, con la finalidad de liberar los gases que pudiesen quedar atrapados, y puncionar e impregnar aún más las vísceras con la solución preservante, si decide hacer esto tenga en cuenta que debe usar una gasa impregnada con desinfectante al final del trocar para evitar la salida de estos gases o posibles líquidos en el medio ambiente. 
         p Si  se considera necesario se puede realizar la respiración de la cavidad seguido de una reinyección; es aconsejable en casos de muerte como septicemia, casos avanzados de descomposición, infecciones pulmonares, ascitis, obesos o cualquier enfermedad infecciosa ocasionada en el abdomen. 
 
-    .row.align-items-center.bg10.afterCP1.p-5.mb-5
+    .row.align-items-center.bg10.afterCP1.p-5.mb-5.sm-fg
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t6/bg10f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-6
         p.bordeLnegro.mb-0 Una vez dado por terminado el procedimiento de inyección de las vísceras se procede a realizar el cierre de la incisión realizada para el ingreso del trocar. Esta se podrá realizar usando un botón de trocar que proporciona un cierre hermético; la más usada es mediante la sutura en forma de N o invertida o sutura en bolsa de tabaco, ambas ofrecen la ventaja de un cierre total de la incisión.
       .col-lg-4
@@ -113,8 +114,12 @@
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
       .tarjeta.tarjeta-white--color-red
-        .p-4.ps-0.py-5
-          p.mb-0 En conclusión, el tratamiento de cavidad está diseñado para llegar donde la solución arterial de preservación no puede hacerlo. Cuando el tanatopractor práctica esta técnica puede alcanzar los microbios y sustancias que se encuentran en los espacios de las cavidades torácica, abdominal y pélvica. Este método es efectivo contra el avance de la descomposición y contribuye a un proceso de embalsamamiento adecuado.
+        .p-5
+          p.mb-0 
+            b En conclusión, el tratamiento de cavidad está diseñado para llegar donde la solución arterial de preservación no puede hacerlo. 
+            | Cuando 
+            b.cp el tanatopractor práctica esta técnica puede alcanzar los microbios y sustancias que se encuentran en los espacios de las cavidades torácica, abdominal y pélvica. 
+            b Este método es efectivo contra el avance de la descomposición y contribuye a un proceso de embalsamamiento adecuado.
     
 </template>
 

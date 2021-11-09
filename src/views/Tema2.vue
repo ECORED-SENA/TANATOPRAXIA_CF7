@@ -32,51 +32,46 @@
       .row.align-items-center
         .col-lg-2.col-md-3
           figure
-            img(src='@/assets/curso/t2/f3.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f3.svg', alt='imagen relacionada').mw155px
         .col
           p Cuando cesa la actividad en el cuerpo humano comienza la descomposición generalizada de los azúcares y de algunos carbohidratos.  A este acontecimiento se le llama sacarólisis. 
       .row.align-items-center
         .col
           p Tiempo después del fallecimiento de una persona comienza la presencia de bacterias aeróbicas, es decir, de microrganismos que necesitan de oxigeno, a lo que se le llama fermentación. 
-        .col-lg-2.col-md-3
+        .col-lg-2.col-md-3.order-first.order-lg-last
           figure
-            img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada').mw155px
       .row.align-items-center
         .col-lg-2.col-md-3
           figure
-            img(src='@/assets/curso/t2/f5.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f5.svg', alt='imagen relacionada').mw155px
         .col
           p Poco a poco el cuerpo sin vida comienza con la descomposición de proteínas corporales por autólisis, es decir, por autodestrucción por la acción de enzimas. Entre las bacterias a mencionar están las aeróbicas (causan malos olores) y anaeróbicas (putrefacción).
           p Como última etapa de la descomposición celular, al desestructurarse las cadenas enzimáticas aparecen las putrecinas, cadaverinas y finalmente, los lixiviados. 
       .row.align-items-center
         .col
           p Lentamente los cambios en el cuerpo sin vida no cesan, los lípidos o grasas corporales se descomponen por efecto de la autolítica. A comparación de otros efectos con la lipólisis no se generan malos olores. 
-        .col-lg-2.col-md-3
+        .col-lg-2.col-md-3.order-first.order-lg-last
           figure
-            img(src='@/assets/curso/t2/f6.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f6.svg', alt='imagen relacionada').mw155px
       .row.align-items-center
         .col-lg-2.col-md-3
           figure
-            img(src='@/assets/curso/t2/f7.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f7.svg', alt='imagen relacionada').mw155px
         .col
           p Cuando ocurre la primera reacción química de putrefacción en el cadáver se está hablando de la hidrólisis, entendida como la desestructuración química del agua corporal. 
       .row.align-items-center
         .col
           p La muerte cuando sucede en un contexto circundante de líquidos genera un reblandamiento por absorción. Este cambio se le conoce como maceración, es una variación del proceso de descomposición. Este caso sucede en los fetos cuando están en el útero. 
-        .col-lg-2.col-md-3
+        .col-lg-2.col-md-3.order-first.order-lg-last
           figure
-            img(src='@/assets/curso/t2/f8.svg', alt='imagen relacionada')
-      //.row.align-items-center
-        .col-lg-2.col-md-3
-          figure
-            img(src='@/assets/curso/t2/f9.svg', alt='imagen relacionada')
-        .col
-          p 
+            img(src='@/assets/curso/t2/f8.svg', alt='imagen relacionada').mw155px
 
-    .row.align-items-center.bg6.afterCP1.p-5.mb-5
+    .row.align-items-center.bg6.afterCP1.p-5.mb-5.sm-fg
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t2/bg6f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-7
         p.bordeLnegro.mb-0 <b>El cuerpo humano está formado principalmente por cuatro compuestos:</b> el oxígeno, el carbono, el hidrógeno y el nitrógeno. Cuando <b><span class="cp">el cuerpo para su actividad vital genera los compuestos mencionados y crea elementos residuales que</span> <span class="cac">afectan la tanatopraxia,</span></b> estos son: 
       .col
@@ -119,7 +114,7 @@
     p.mb-5 <b>Entre el período del fallecimiento y el embalsamamiento</b> la condición del cuerpo y la composición de este sigue cambiando y sí hay influencia interna, <b><span class="cp">actividad química o externa</span></b>, por la naturaleza se presentarán mayores cambios en la descomposición de los cuerpos. A continuación, se presentan los <b>diferentes tipos de descomposición según las condiciones presentadas por el cadáver al momento del fallecimiento y según el medio que lo rodea.</b>
 
     .row.mb-5
-      .col-lg-7
+      .col-lg-7.order-last.order-lg-first
         LineaTiempoD.color-primario.mb-5
           div(numero="1" titulo="Cuerpos en medios aéreos")
             p La velocidad con la cual se descompone un cuerpo depende de múltiples factores intrínsecos y extrínsecos al cuerpo sin vida. Comprende los elementos de cada uno de ellos.
@@ -185,21 +180,21 @@
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img(data-aos="fade-right")
                   img.mx-auto(src='@/assets/curso/t2/f13.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-yellow
+                .tarjeta.tarjeta-white.tarjeta-white--color-yellow
                   .p-4.ps-0.py-5
                     h4 Temperatura
                     p.mb-0 la descomposición es más rápida en agua caliente y más rápida en agua fría.
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img(data-aos="fade-right")
                   img.mx-auto(src='@/assets/curso/t2/f14.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-red
+                .tarjeta.tarjeta-white.tarjeta-white--color-red
                   .p-4.ps-0.py-5
                     h4 Naturaleza del medio
                     p.mb-0 La putrefacción es más rápida en agua contaminada y más lenta en agua limpia.
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img(data-aos="fade-right")
                   img.mx-auto(src='@/assets/curso/t2/f15.svg' alt='Imagen relacionada' style='width:71px;')
-                .tarjeta.tarjeta-white--color-red
+                .tarjeta.tarjeta-white.tarjeta-white--color-red
                   .p-4.ps-0.py-5
                     h4 Movimiento de fluidos
                     p.mb-0 La putrefacción es más rápida en agua estancada y más lenta en agua corriente.
@@ -217,7 +212,7 @@
       .row.align-items-center
         .col-lg-2.col-md-3
           figure
-            img(src='@/assets/curso/t2/f17.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f17.svg', alt='imagen relacionada').mw155px
         .col
           h4 Orden histológico
           p Se caracteriza por la descomposición de las células, tejidos y órganos.
@@ -225,13 +220,13 @@
         .col
           h4 Orden tejidos
           p Este hace mención a los tejidos líquidos (sangre y tejido linfático); tejidos suaves (tejido parenquimal de los órganos); tejidos firmes (músculos, fibras lisas y estriadas); tejidos duros (huesos y cartílagos).
-        .col-lg-2.col-md-3
+        .col-lg-2.col-md-3.order-first.order-lg-last
           figure
-            img(src='@/assets/curso/t2/f18.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f18.svg', alt='imagen relacionada').mw155px
       .row.align-items-center
         .col-lg-2.col-md-3
           figure
-            img(src='@/assets/curso/t2/f19.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f19.svg', alt='imagen relacionada').mw155px
         .col
           h4 Orden de compuestos corporales
           p Se refiere a la descomposición de los carbohidratos, proteínas blandas, grasas, proteínas duras y huesos.
@@ -239,9 +234,9 @@
         .col
           h4 Orden de órganos
           p Por regla general el orden de descomposición en el cuerpo humano es el siguiente: recubrimiento de la laringe y la tráquea; estómago; intestinos; bazo; mesenterio u omento mayor; hígado; cerebro en los adultos; corazón; pulmones; riñones; vejiga urinaria; esófago; páncreas; diafragma; sistema circulatorio; útero en la mujer en estado de gravidez.
-        .col-lg-2.col-md-3
+        .col-lg-2.col-md-3.order-first.order-lg-last
           figure
-            img(src='@/assets/curso/t2/f20.svg', alt='imagen relacionada')
+            img(src='@/assets/curso/t2/f20.svg', alt='imagen relacionada').mw155px
 
     p.mb-5 Solo hay dos excepciones en este orden, estas son: 
     .row.align-items-center.mb-5
@@ -252,14 +247,14 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img(data-aos="fade-right")
             img.mx-auto(src='@/assets/curso/t2/f22.svg' alt='Imagen relacionada' style='width:71px;')
-          .tarjeta.tarjeta-white--color-yellow
+          .tarjeta.tarjeta-white.tarjeta-white--color-yellow
             .p-4.ps-0.py-5
               p.mb-0 En el caso de los recién nacidos se descompone primero el cerebro, debido a que el cráneo no se ha cerrado completamente y hay mucho contenido de bacterias.
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img(data-aos="fade-right")
             img.mx-auto(src='@/assets/curso/t2/f23.svg' alt='Imagen relacionada' style='width:71px;')
-          .tarjeta.tarjeta-white--color-red
-            .p-4.ps-0.py-5
+          .tarjeta.tarjeta-white.tarjeta-white--color-red
+            .p-5
               p.mb-0 El útero de la mujer embarazada que, por su mayor nivel de irrigación sanguínea y aumento desmedido en la humedad relativa, se descompone casi instantáneamente al momento del fallecimiento.
 
     Separador

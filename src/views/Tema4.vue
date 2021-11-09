@@ -13,7 +13,7 @@
         p <b>Los químicos que se emplean para embalsamar,</b> llamados fluidos de embalsamamiento <b><span class="cp">están compuestos por diferentes sustancias químicas que en diferentes concentraciones logran efectos diferentes.</span></b> Se habla que <b>cada componente químico individual tiene su función específica, el cual reacciona según su concentración, distribución, difusión y actividad individual.</b> La mayoría de las <b><span class="cac">sustancias químicas</span> para el embalsamamiento se basan en el formaldehído y metanol como materia prima principal.</b> 
         .cajon.color-secundario.p-4
           p.mb-0 Tradicionalmente <b>en Colombia se ha utilizado el formol como preservante, en algunos sitios utilizándolo puro, mezclado con agua y/u otros químicos.</b> De cualquier manera, <b><span class="cp">se debe seguir algún criterio profesional para prever posibles reacciones en el proceso de embalsamamiento, pero nunca se debe utilizar libremente.</span></b> Todo lo anterior es llamado <b><span class="cac">tanatoquímica,</span></b> para conocer todo lo relacionado con esta es necesario preguntarse qué es la bioquímica.
-      .col-lg-4
+      .col-lg-4.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t4/f1.png' alt='Químicos para embalsamar')
 
@@ -79,7 +79,7 @@
     p.mb-5 Los fluidos de embalsamamiento en su mayoría son agentes líquidos, aunque también existen soluciones de sólidos y/o gases que pueden ser inyectados de forma material, hipodérmica o superficialmente en el cuerpo. En su mayoría contienen formaldehído, glutaraldehído, alcoholes y otros químicos.  Ahora, cuando se habla de fluidos arteriales son productos químicos concentrados; la solución arterial es la mezcla diluida de fluidos arteriales preparadas para cada cuerpo a partir de químicos y sustancias especiales para lograr en conjunto una preservación del cadáver. A continuación, se presentan sus ingredientes base:
 
     .row.mb-5
-      .col-lg-7 
+      .col-lg-7.order-last.order-lg-first 
         LineaTiempoD.color-primario
           .row.align-items-center(numero='1' titulo='Agentes modificantes')
             .col-lg-4
@@ -278,7 +278,13 @@
             figure
               img(src='@/assets/curso/t4/f21.png', alt='imagen relacionada')
 
-    p.mb-5 Al hablar de fluidos químicos se deben conocer algunos factores relevantes de estos, ya que sus singularidades proporcionan efectos en los procesos de embalsamamiento. Entre estas cualidades se encuentran el índice, color, velocidad de fijación, grado de fijación y cualidades humectantes. A continuación, se presenta cada una de ellas.
+    p.mb-5 Al hablar de 
+      b.cp fluidos químicos se deben conocer algunos factores relevantes de estos, 
+      | ya que sus singularidades proporcionan efectos en los 
+      b.cp procesos de embalsamamiento. 
+      | Entre estas 
+      b cualidades se encuentran el índice, color, velocidad de fijación, grado de fijación y cualidades humectantes. 
+      | A continuación, se presenta cada una de ellas.
     
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Índice o index")
@@ -336,9 +342,16 @@
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
       .tarjeta.tarjeta-white--color-red
-        .p-4.ps-0.py-5
-          p Es importante mencionar que los químicos también se pueden clasificar por su utilización.  Estos químicos o fluidos arteriales preservantes son ligeramente alcalinos con pH entre 7,2 y 7,4, que se utilizan única y exclusivamente para ser inyectados arterialmente y siempre se deben inyectar mezclados con agua.
-    p.mb-5 Hasta aquí, se ha hecho una presentación de las propiedades de los químicos utilizados durante el embalsamamiento. A continuación, se listan algunas empresas proveedoras de químicos arteriales tanto nacionales como internacionales, para que pueda identificar su razón de ser y/o catálogo de productos. 
+        .p-5
+          p 
+            b Es importante mencionar que 
+            b.cp los químicos también se pueden clasificar por su utilización. 
+            b Estos químicos o fluidos arteriales preservantes son ligeramente alcalinos con pH entre 7,2 y 7,4, que se utilizan única y exclusivamente para ser inyectados arterialmente y siempre se deben inyectar mezclados con agua.
+    p.mb-5 Hasta aquí, se ha hecho una presentación de 
+      b las propiedades de los químicos utilizados durante el embalsamamiento. 
+      | A continuación, se listan algunas empresas 
+      b.cp proveedoras de químicos arteriales tanto nacionales como internacionales, 
+      | para que pueda identificar su razón de ser y/o catálogo de productos. 
 
     .row.justify-content-center.mb-5
       .col.mmw.fcb.h500px.p-0.mx-2
@@ -387,7 +400,15 @@
             a.boton.fcab(href='https://www.hepburnsuperior.com' target='_blank')
               h6.mb-0.text-center Ver más
 
-    p.mb-5 Los químicos para el embalsamamiento se pueden clasificar en cavitales (cavidad), especiales y blanqueadores. Los primeros son diseñados exclusivamente con conservantes astringentes de acción rápida y normalmente con una alta concentración de formaldehído; estos se complementan con agentes germicidas y coagulantes porque su propósito es el tratamiento de las vísceras corporales. Los segundos son especialmente diseñados para complementar, equilibrar y controlar la acción de los químicos arteriales; estos pueden ser usados antes o durante la inyección de la solución arterial y, los terceros ayudan a remover coloraciones y manchas temporales, para mayor información observe el siguiente recurso educativo.
+    p.mb-5 
+      b Los químicos para el embalsamamiento se pueden clasificar 
+      | en cavitales (cavidad), especiales y blanqueadores. 
+      b.cp Los primeros son diseñados exclusivamente con conservantes astringentes de acción rápida 
+      | y normalmente con una alta concentración de formaldehído; estos se complementan con agentes germicidas y coagulantes porque su propósito es el tratamiento de las vísceras corporales. 
+      b Los segundos son especialmente diseñados para complementar, equilibrar y controlar la acción de los químicos arteriales; 
+      | estos pueden ser usados antes o durante la inyección de la solución arterial y, 
+      b los terceros ayudan a remover coloraciones y manchas temporales, 
+      | para mayor información observe el siguiente recurso educativo.
 
     .tarjeta.tarjeta--gris.p-5.mb-5
       .row.align-items-center.justify-content-around
@@ -402,7 +423,11 @@
             span Descargar
             i.fas.fa-file-download
 
-    p.mb-5 Los fluidos para embalsamamiento deben ser usados correctamente para lograr el efecto deseado en la preparación del cuerpo. Esto conlleva a determinar la cantidad suficiente de las soluciones en concentraciones adecuadas según cada caso de embalsamamiento. Se recomienda considerar factores tales como: 
+    p.mb-5 
+      b Los fluidos para embalsamamiento deben ser usados correctamente para lograr el efecto deseado en la preparación del cuerpo. 
+      | Esto conlleva a determinar la cantidad suficiente de 
+      b.cp las soluciones en concentraciones adecuadas según cada caso de embalsamamiento. 
+      | Se recomienda considerar factores tales como: 
 
     .row.align-items-center.mb-5.justify-content-center
       .col-lg-7
@@ -439,13 +464,18 @@
         figure
           img(src='@/assets/curso/t4/f33.svg', alt='imagen relacionada')
 
-    p.mb-5 Todo esto, con el fin de realizar un proceso de embalsamamiento encaminado al propósito principal de la tanatopraxia. 
+    p.mb-5 Todo esto, 
+      b con el fin de realizar un proceso de embalsamamiento encaminado al propósito principal de la tanatopraxia. 
 
     Separador
     #t_4_2.titulo-segundo
       h2 4.2. Utilización de químicos para embalsamamiento
 
-    p El uso de químicos para embalsamar un cuerpo depende de los conocimientos de tanatoquímica que posea el embalsamador, por ello se habla que para realizar el proceso de tanatopraxia correctamente se deben tener algunos conceptos: 
+    p 
+      b El uso de químicos para embalsamar un cuerpo depende de los conocimientos de tanatoquímica que posea el embalsamador, 
+      | por ello se habla que para realizar el 
+      b.cac proceso de tanatopraxia 
+      | correctamente se deben tener algunos conceptos: 
     .row.mb-5
       .col.bb.bb--cab.mx-3.boxShadow
         .fblanco.p-4
@@ -468,9 +498,25 @@
         figure
           img(src='@/assets/curso/t4/f37.png', alt='Químicos para embalsamamiento')
       .col-lg-8
-        p En lo referente al manejo de los químicos se debe tener conocimiento sobre los índices y sus implicaciones. Es importante que como tanatopractor entienda el concepto de dilución primaria y el volumen total de la solución a inyectar a un cuerpo, porque a partir de estos datos se determinan las cantidades y concentraciones del químico apropiado para embalsamar un cuerpo, usando como referencia el postulado de Frederick, por cada 50 libras de peso (25 kg) se utiliza un galón (256 onzas) de solución preservante; sin embargo, se debería de restar un 18% que corresponde al peso promedio del esqueleto humano, que es tejido no receptivo de preservación. A este postulado se le pueden hacer modificaciones y ajustes según el criterio del tanatopractor, una vez haga el análisis del perfil cadavérico, ya que las características de cada cuerpo son diferentes y por ello, podría requerirse de una solución más concentrada o no. 
+        p En lo referente al 
+          b manejo de los químicos se debe tener conocimiento sobre los índices y sus implicaciones. 
+          b.cac Es importante que como tanatopractor 
+          | entienda el 
+          b concepto de dilución primaria y el volumen total de la solución a inyectar a un cuerpo, porque a partir de estos datos se determinan las cantidades y concentraciones del químico apropiado para embalsamar un cuerpo, usando como referencia el postulado de Frederick, por cada 50 libras de peso (25 kg) se utiliza un galón (256 onzas) de solución preservante; 
+          | sin embargo, 
+          b se debería de restar un 18% que corresponde al peso promedio del esqueleto humano, que es tejido no receptivo de preservación. 
+          | A este postulado se le pueden hacer modificaciones y ajustes según el criterio del tanatopractor, 
+          b.cp una vez haga el análisis del perfil cadavérico, ya que las características de cada cuerpo son diferentes y por ello, podría requerirse de una solución más concentrada o no. 
 
-    p.mb-5 Técnicamente existe una tabla de concentración de soluciones, aplicable cuando se utilizan químicos indexados y no es aplicable cuando se utiliza formol o fórmulas domésticas. A continuación, se muestra la tabla de diluciones recomendada para el uso de productos químicos de la compañía Dodge, teniendo en cuenta que estos son algunos lineamientos, pero cada caso de embalsamamiento deberá ser estudiado y tomar la decisión de los líquidos a usar y su cantidad. Se habla solo de un galón, ya que The Dodge Company recomienda la inyección por galón para determinar si se deben realizar modificaciones necesarias, por ejemplo, si el cuerpo está quedando muy firme disminuir la concentración del líquido arterial o el índex de este o adicionar la cantidad de líquidos de co-inyección, como se muestra en la siguiente tabla.
+    p.mb-5 
+      b Técnicamente existe una tabla de concentración de soluciones, aplicable cuando se utilizan químicos indexados y no es aplicable cuando se utiliza formol o fórmulas domésticas. 
+      | A continuación, se muestra la tabla de diluciones 
+      b.cac recomendada para el uso de productos químicos de la compañía Dodge, 
+      | teniendo en cuenta que estos son algunos lineamientos, pero 
+      b cada caso de embalsamamiento deberá ser estudiado y tomar la decisión de los líquidos a usar y su cantidad. 
+      | Se habla solo de un galón, ya que 
+      b.cp The Dodge Company recomienda la inyección por galón para determinar si se deben realizar modificaciones necesarias, 
+      | por ejemplo, si el cuerpo está quedando muy firme disminuir la concentración del líquido arterial o el índex de este o adicionar la cantidad de líquidos de co-inyección, como se muestra en la siguiente tabla.
 
     .tabla-a.color-primario.mb-5 
       table
@@ -593,19 +639,31 @@
       .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/if7.svg' alt='Señal de atención' style='width:155px;')
       .tarjeta.tarjeta-white--color-red
-        .p-4.ps-0.py-5
-          p.mb-0 Recuerde que las tablas varían de acuerdo con la entidad que la regule; sin embargo, tiene ciertos valores de referencia que siempre se cumplen. Estos valores reflejan la cantidad real del químico preservante que va a entrar a la persona fallecida y los valores van entre 0.1 hasta 20 o más. Por regla general para un embalsamamiento promedio “caso normal” necesitaría una solución al 1% para ser correctamente embalsamado con fines funerarios; para casos de un poco más de exigencia los porcentajes son entre 1.5 - 2.5%, que es suficiente. 
+        .p-5
+          p.mb-0 
+            b.cp Recuerde que las tablas varían de acuerdo con la entidad que la regule; sin embargo, tiene ciertos valores de referencia que siempre se cumplen. 
+            b Estos valores reflejan la cantidad real del químico preservante que va a entrar a la persona fallecida y los valores van entre 0.1 hasta 20 o más. Por regla general para 
+            b.cac un embalsamamiento promedio “caso normal” 
+            b necesitaría una solución al 1% para ser correctamente embalsamado con fines funerarios; para casos de un poco más de exigencia los porcentajes son entre 1.5 - 2.5%, que es suficiente. 
 
     .row.mb-4
       .col-lg-8
-        p Dependiendo de la dificultad del caso o de la duración mayor que se requiera, la preparación sería entre 2.5 -5%, lo cual es suficiente; para casos donde haya descomposición y se anticipen dificultades mayores o casos de reconstrucción extrema su puede subir de 5% al máximo nivel de 30%.
+        p Dependiendo de la dificultad del caso o de la duración mayor que se requiera, 
+        b la preparación sería entre 2.5 -5%, lo cual es suficiente; 
+        | para casos donde haya descomposición y se 
+        b.cp anticipen dificultades mayores o casos de reconstrucción extrema su puede subir de 5% al máximo nivel de 30%.
         .cajon.color-secundario.p-4
           p.mb-0 El único valor que se tiene que respetar es que nunca se puede inyectar un cuerpo con una concentración inferior al 0.7%, porque la fijación del formol o el químico preservante va a hacer insuficiente para estabilizar químicamente las proteínas del cuerpo, lo cual incluso, podría acelerar el proceso de descomposición.
-      .col-lg-4
+      .col-lg-4.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t4/f38.png', alt='Químicos para embalsamamiento')
 
-    p Con todo lo mencionado,  se puede afirmar que los líquidos de embalsamamiento disponibles han ido mejorando sus fórmulas para ofrecer mayores y mejores beneficios en la función de la preservación de los cuerpos, estos se basan principalmente en formaldehído y metanol, que al ser combinados con otras sustancias químicas en diferentes concentraciones pueden producir efectos diferentes, y esto se usa para dar el tratamiento adecuado a cada caso  de tanatopraxia, porque cada cuerpo presenta condiciones diferentes y deben ser tratados específicamente para retardar el proceso de descomposición, desinfectar y quizás los más importante para los deudos, restablecer la apariencia natural del fallecido para así darle la despedida final.
+    p Con todo lo mencionado, 
+    b se puede afirmar que los líquidos de embalsamamiento disponibles han ido mejorando sus fórmulas para ofrecer mayores y mejores beneficios en la función de la preservación de los cuerpos, 
+    | estos se basan 
+    b.cac principalmente en formaldehído y metanol, 
+    | que al ser combinados con otras sustancias químicas en diferentes concentraciones pueden producir efectos diferentes, y esto se usa para dar el tratamiento adecuado a cada caso  de tanatopraxia, porque cada cuerpo presenta condiciones diferentes y 
+    b.cp deben ser tratados específicamente para retardar el proceso de descomposición, desinfectar y quizás los más importante para los deudos, restablecer la apariencia natural del fallecido para así darle la despedida final.
 
 </template>
 

@@ -8,7 +8,7 @@
         span 1
       h1 La muerte en la tanatopraxia
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-4
       .col-lg-5
         figure(data-aos='fade-right')
           img(src='@/assets/curso/t1/f1.png' alt='La muerte como experiencia')
@@ -17,15 +17,18 @@
         p Históricamente se tiene evidencia que incluso <b>desde la época de los neandertales, aproximadamente 400.000 años A.C,</b> se <b><span class="cp">realizaban prácticas con los muertos, empezando por sus cuidados hasta su despedida.</span></b> El tratamiento que se le realiza a los cuerpos muertos ha marcado grandes momentos de la humanidad, en todos los tiempos y en todas las culturas se han realizado procesos para preservar el cuerpo y los vivos han realizado rituales de despedida. 
     
     .row.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7.order-lg-first.order-last
         p <b>En la actualidad se siguen realizando procesos para detener temporalmente la descomposición natural del cuerpo</b>, en la que sus familiares o allegados puedan hacer un ritual de despedida. Toda esta historia y la evolución que ha tenido hasta en el momento actual y <b><span class="cp">en Colombia devela la necesidad de profesionalizar el sector funerario para conservar los rituales funerarios</span></b> y el trato digno en la muerte, ayudando así al trámite del duelo de las personas que quedan.
         .cajon.color-secundario.p-4
           p.mb-0 Etimológicamente hablando <b>la muerte viene de la raíz latina <span class='cac'><em>mors - mortis</em></span> que significa fin o ausencia de vida.</b>  La muerte entonces <b><span class="cp">es la finalización de todas las funciones vitales del organismo como la circulación, la respiración, el sistema nervioso central y lo cognitivo,</span></b> es decir, que un fallecimiento de un cuerpo humano es un proceso que implica cambios químicos y físicos involucrados en el fin de una vida orgánica. <b>La muerte es la interrupción definitiva de las funciones vitales y la relación de un ser humano con el contexto social.</b> 
-      .col-lg-5
+      .col-lg-5.order-first.order-lg-last
         figure
-          img(src='@/assets/curso/t1/f2.png' alt='La muerte como experiencia')
+          img(src='@/assets/curso/t1/f2.png' alt='La muerte como experiencia').mb-4
 
-    p.mb-5 A continuación, se exponen algunas descripciones de la muerte en el contexto biológico. Se sugiere leer con atención las características con la intención de que establezca diferencias y similitudes entre estos conceptos.
+    p.mb-5 A continuación, se exponen algunas 
+      b descripciones de la muerte en el 
+      b.cac contexto biológico. 
+      | Se sugiere leer con atención las características con la intención de que establezca diferencias y similitudes entre estos conceptos.
 
     .row.mb-5
       .col-lg-5
@@ -62,7 +65,7 @@
             p Es la disminución de las funciones vitales. Se le conocía a esta como estados catatónicos o catalepsia. Se requieren tratamientos médicos para tratar la enfermedad y en algunas ocasiones se produce la muerte definitiva.
 
     .row.mb-5
-      .col-lg-7.order-lg-first.order-md-last
+      .col-lg-7.order-lg-first.order-last
         LineaTiempoD.color-primario
           div(numero="7" titulo="Estado agonal")
             p Es el estado de transición entre la vida y la muerte. El moribundo presenta algunos síntomas visibles tales como:  1. Los músculos y las funciones de los esfínteres se relajan por completo, 2. Se genera un sonido respiratorio tipo gorgoteo que se produce en la garganta, debido a la acumulación de mucosas, 3. Espasmos musculares y 4. pérdida de la lucidez mental.
@@ -96,15 +99,16 @@
                     | Glóbulos: 6 horas.
               .col-lg-5
                 img(src='@/assets/curso/t1/f7.svg' alt='Muerte en el contexto biológico')
-      .col-lg-5.order-lg-last.order-md-first
+      .col-lg-5.order-lg-last.order-first
         figure
-          img(src='@/assets/curso/t1/f6.svg' alt='Muerte en el contexto biológico')
+          img(src='@/assets/curso/t1/f6.svg' alt='Muerte en el contexto biológico').mb-4
     
-    .row.align-items-center.bg3.afterCP1.p-5.mb-5
+    .row.align-items-center.bg3.afterCP1.p-5.mb-5.sm-fg
       .col-lg-4
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t1/bg3f1.png' alt='Símbolo de atención').onlyMobile.mb-4
       .col-lg-6
         p.bordeLnegro.mb-0 <b>Comprendidas algunas causas biológicas por las que un cuerpo puede explorar la muerte,</b> es momento de <b><span class="cp">explicar los tipos de muerte.</span></b> Cabe mencionar que algunas de ellas requieren una intervención legal que esclarezca el deceso de un cuerpo, estas son:
 
@@ -179,10 +183,11 @@
                     | Descomposición.
     p.mb-5 Cuando un cuerpo humano finaliza todas sus funciones vitales ocurren cambios antes y después de su fallecimiento. Conocer estos cambios es muy importante, pues de estos van a depender los procedimientos y las técnicas que se deban aplicar en la tanatopraxia y las posibles complicaciones que se tengan al momento de la preservación. En este momento se describirán los fenómenos agonales y cadavéricos para que pueda compararlos y valorarlos en su contexto de acción. Inicie revisando la siguiente información:
 
-    .row.align-items-center.bg4.afterCP1.p-5.mb-5
+    .row.align-items-center.bg4.afterCP1.p-5.mb-5.sm-fg
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t1/bg4f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-7
         p.bordeLnegro.mb-0 <b><span class="cac">Los fenómenos agonales</span></b> son <b>cambios que ocurren en el cuerpo de la persona durante en el proceso del fallecimiento gracias a la disminución metabólica,</b> estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
       .col
@@ -253,11 +258,12 @@
                   .p-4.ps-0.py-5
                     p.mb-0 Deshidratación, como su nombre lo dice es la disminución de los líquidos de los tejidos.
                         
-    .row.align-items-center.bg5.afterCP1.p-5.mb-5
+    .row.align-items-center.bg5.afterCP1.p-5.mb-5.sm-fg
       .col-lg-4
       .col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px
+          img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
+        img(src='@/assets/curso/t1/bg5f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-6
         p.bordeLnegro.mb-0 Hasta ahora ha leído un fenómeno de los dos mencionados. Es momento que reconozca el fenómeno o <b><span class="cac">cambio <em>postmortem</em></span>, definido como el cambio que ocurre en el cuerpo después del fallecimiento de la persona, puede presentarse desde las primeras horas y se prolonga con el paso del tiempo.</b> Estos cambios son los que <b><span class="cp">se tratan con las correctas técnicas de embalsamamiento y pueden retrasarse o interrumpirse,</span></b> en algunos casos pueden hasta revertir levemente alguno de los cambios, siempre y cuando se intervenga el cuerpo en el menor tiempo posible después de la muerte.
 
@@ -268,7 +274,7 @@
         figure
           img(src='@/assets/curso/t1/f15.svg' alt='Fenómeno postmortem')
       .col-md-6
-        h2 <span class="fnegro texto-blanco">FÍSICO</span>
+        h2 <span class="fnegro texto-blanco px-1">FÍSICO</span>
         P Son cambios que modifican el aspecto físico del cuerpo.
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="<em>Algor mortis</em>")
@@ -289,8 +295,8 @@
             p El cuerpo en vida normalmente tiene una microflora en el intestino que ayuda a los procesos funcionales, pero al momento del fallecimiento esos mismos microorganismos comienzan a migrar a las demás partes del cuerpo y son uno de los factores principales para la descomposición del cuerpo.
 
     .row.mb-5
-      .col-md-6.order-lg-first.order-md-last
-        h2 <span class="fnegro texto-blanco">QUÍMICO</span>
+      .col-md-6.order-lg-first.order-last
+        h2 <span class="fnegro texto-blanco px-1">QUÍMICO</span>
         P Son cambios químicos que cambian las estructuras del cuerpo y lo modifican.
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Coloración <em>postmortem</em>")
@@ -304,7 +310,7 @@
           div(titulo="Putrefacción o descomposición")
             p Es el proceso químico en el que la materia orgánica se descompone. Ocurre en diversas partes del cuerpo en simultáneo, comienza desde las células, los tejidos hasta los órganos. 
             p La descomposición es evidente cuando se presenta algunos de los siguientes fenómenos: 1. Desprendimiento de piel, 2. Cambio de color, 3. Presencia de gases en los tejidos, 4. Olor putrefacto y 5. Presencia de líquidos por los orificios naturales que se le conoce como purga.
-      .col-md-6.order-md-first.order-lg-last
+      .col-md-6.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t1/f16.svg' alt='Fenómeno postmortem')
   
