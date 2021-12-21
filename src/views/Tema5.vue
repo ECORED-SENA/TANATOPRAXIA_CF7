@@ -118,11 +118,11 @@
     .row.mb-5
       .col-lg-8
         p Cuando se habla de 
-        b guías vasculares en el contexto de la tanatopraxia se hace  referencia a los vasos sanguíneos del cuerpo del fallecido que se usarán para la preservación química. 
-        | Estos hacen parte del cuerpo y 
-        b.cp necesitan de pequeños cortes para inyectar la solución química cuando se hace el embalsamamiento por muerte natural, 
-        | para ello, debe identificarlos cuando realice la 
-        b.cac exploración de las guías vasculares.
+          b guías vasculares en el contexto de la tanatopraxia se hace  referencia a los vasos sanguíneos del cuerpo del fallecido que se usarán para la preservación química. 
+          | Estos hacen parte del cuerpo y 
+          b.cp necesitan de pequeños cortes para inyectar la solución química cuando se hace el embalsamamiento por muerte natural, 
+          | para ello, debe identificarlos cuando realice la 
+          b.cac exploración de las guías vasculares.
         .cajon.color-secundario.p-4
           p.mb-0 Cabe mencionar que 
             b las guías al estar dentro del sistema circulatorio permiten distribuir la sangre por todos los tejidos del organismo cuando el cuerpo humano tiene vida. 

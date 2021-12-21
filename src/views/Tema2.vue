@@ -183,7 +183,7 @@
                 .tarjeta.tarjeta-white.tarjeta-white--color-yellow
                   .p-4.ps-0.py-5
                     h4 Temperatura
-                    p.mb-0 la descomposición es más rápida en agua caliente y más rápida en agua fría.
+                    p.mb-0 la descomposición es más rápida en agua caliente y más lenta en agua fría.
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img(data-aos="fade-right")
                   img.mx-auto(src='@/assets/curso/t2/f14.svg' alt='Imagen relacionada' style='width:71px;')

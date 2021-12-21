@@ -397,7 +397,7 @@
           h3 U.S. Chemical
           p Son una compañía de suplementos para casas funerarias, cementerios y crematorios.
           .mx-auto
-            a.boton.fcab(href='https://www.hepburnsuperior.com' target='_blank')
+            a.boton.fcab(href='https://www.uschemicalstorage.com/' target='_blank')
               h6.mb-0.text-center Ver más
 
     p.mb-5 

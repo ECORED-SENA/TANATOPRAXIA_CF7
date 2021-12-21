@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 6
-      h1 Tratamiento de cavidad
+      h1 Tratamiento de cavidades
 
     .row.align-items-center.mb-4
       .col-lg-5

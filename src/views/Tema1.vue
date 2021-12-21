@@ -13,8 +13,15 @@
         figure(data-aos='fade-right')
           img(src='@/assets/curso/t1/f1.png' alt='La muerte como experiencia')
       .col-lg-7
-        p Desde hace <b>miles de años el hombre ha realizado rituales para darle explicación a los fenómenos que ocurren en la cotidianidad de la vida como nacer, crecer y morir.</b> Siendo de estos, <b><span class="cp">la muerte una experiencia rodeada de tabú y explicaciones en todas las religiones, culturas y épocas del ser humano.</span></b>  
-        p Históricamente se tiene evidencia que incluso <b>desde la época de los neandertales, aproximadamente 400.000 años A.C,</b> se <b><span class="cp">realizaban prácticas con los muertos, empezando por sus cuidados hasta su despedida.</span></b> El tratamiento que se le realiza a los cuerpos muertos ha marcado grandes momentos de la humanidad, en todos los tiempos y en todas las culturas se han realizado procesos para preservar el cuerpo y los vivos han realizado rituales de despedida. 
+        p Desde hace 
+          b miles de años el hombre ha realizado rituales para darle explicación a los fenómenos que ocurren en la cotidianidad de la vida como nacer, crecer y morir. 
+          | Siendo de estos, 
+          b.cp la muerte una experiencia rodeada de tabú y explicaciones en todas las religiones, culturas y épocas del ser humano.
+        p Históricamente se tiene evidencia que incluso 
+          b desde la época de los neandertales, aproximadamente 400.000 años A.C, 
+          | se 
+          b.cp realizaban prácticas con los muertos, empezando por sus cuidados hasta su despedida. 
+          b El tratamiento que se le realiza a los cuerpos muertos ha marcado grandes momentos de la humanidad, en todos los tiempos y en todas las culturas se han realizado procesos para preservar el cuerpo y los vivos han realizado rituales de despedida. 
     
     .row.align-items-center.mb-5
       .col-lg-7.order-lg-first.order-last
@@ -189,7 +196,11 @@
           img(src='@/assets/curso/icon-admiracion.svg' alt='Símbolo de atención').w85px.noMobile
         img(src='@/assets/curso/t1/bg4f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-7
-        p.bordeLnegro.mb-0 <b><span class="cac">Los fenómenos agonales</span></b> son <b>cambios que ocurren en el cuerpo de la persona durante en el proceso del fallecimiento gracias a la disminución metabólica,</b> estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
+        p.bordeLnegro.mb-0 
+          b.cac Los fenómenos agonales 
+          | son cambios que ocurren en el cuerpo de la persona 
+          b durante en el proceso del fallecimiento gracias a la disminución metabólica, 
+          | estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
       .col
 
     p Se invita a identificar los diferentes cambios que pueden ocurrir en un cuerpo en el marco del anterior fenómeno.
