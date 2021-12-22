@@ -199,7 +199,7 @@
         p.bordeLnegro.mb-0 
           b.cac Los fenómenos agonales 
           | son cambios que ocurren en el cuerpo de la persona 
-          b durante en el proceso del fallecimiento gracias a la disminución metabólica, 
+          b durante el proceso del fallecimiento gracias a la disminución metabólica, 
           | estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
       .col
 
